@@ -74,7 +74,7 @@ function App() {
         </div>
         <div className='menu'>
           <ul>
-            <a href=''><li className='inicio-li' onMouseOver={borderBottom} onMouseOut={withoutBorderBottom}>INÍCIO</li></a>
+            <a href=''><li className='inicio-li'onMouseOver={borderBottom} onMouseOut={withoutBorderBottom}>INÍCIO</li></a>
             <li className='portfolio-li' onMouseOver={borderBottom} onMouseOut={withoutBorderBottom} onClick={goToPageSection}>PORTFÓLIO</li>
             <li className='contatos-li' onMouseOver={borderBottom} onMouseOut={withoutBorderBottom} onClick={goToPageSection}>CONTATOS</li>
           </ul>
@@ -124,6 +124,7 @@ function App() {
             <div>linkedin.com/in/clebsonbarbosa</div>
           </div>
         </div>
+        <div className='copyright'>© Clebson Barbosa</div>
       </footer>
     </div>
   );
