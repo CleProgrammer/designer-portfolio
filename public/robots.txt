@@ -1,3 +1,6 @@
-# https://www.robotstxt.org/robotstxt.html
+# Permitir que todos os robôs acessem tudo
 User-agent: *
 Disallow:
+
+# Caminho do sitemap
+Sitemap: https://cleprogrammer.github.io/designer-portfolio/sitemap.xml
