@@ -448,6 +448,10 @@
   width: 50%;
 }
 
+.App main .third-section .third-section-main .box2 .box2-main .contacts a {
+  color: black;
+}
+
 .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
   display: flex;
   width: 80%;
@@ -490,6 +494,10 @@ footer .footer-main .options {
   width: 50%;
   height: 50%;
   font-size: 17px;
+}
+
+footer .footer-main .options a {
+  color: white;
 }
 
 footer .footer-main .options a:hover {
