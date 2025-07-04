@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/designer-portfolio/static/css/main.0cb11b2b.css",
-    "main.js": "/designer-portfolio/static/js/main.17135eca.js",
+    "main.js": "/designer-portfolio/static/js/main.74a3307d.js",
     "static/js/787.0bb58e73.chunk.js": "/designer-portfolio/static/js/787.0bb58e73.chunk.js",
     "static/media/img6.jpg": "/designer-portfolio/static/media/img6.ab966509c67528494914.jpg",
     "static/media/img12.jpg": "/designer-portfolio/static/media/img12.a62dcc93a31b4249f3cb.jpg",
-    "static/media/img5.jpg": "/designer-portfolio/static/media/img5.96682a2c585ebb72fc55.jpg",
+    "static/media/img5.jpg": "/designer-portfolio/static/media/img5.50ad09f3f76992b58b54.jpg",
     "static/media/img9.jpg": "/designer-portfolio/static/media/img9.c35e4b5377b8129a7404.jpg",
     "static/media/img4.jpg": "/designer-portfolio/static/media/img4.bdd574bf31e25c1adb8b.jpg",
     "static/media/img8.jpg": "/designer-portfolio/static/media/img8.ce57b967744dc860a13c.jpg",
@@ -24,11 +24,11 @@
     "static/media/service1.png": "/designer-portfolio/static/media/service1.e775632aa43ef6844bd7.png",
     "index.html": "/designer-portfolio/index.html",
     "main.0cb11b2b.css.map": "/designer-portfolio/static/css/main.0cb11b2b.css.map",
-    "main.17135eca.js.map": "/designer-portfolio/static/js/main.17135eca.js.map",
+    "main.74a3307d.js.map": "/designer-portfolio/static/js/main.74a3307d.js.map",
     "787.0bb58e73.chunk.js.map": "/designer-portfolio/static/js/787.0bb58e73.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0cb11b2b.css",
-    "static/js/main.17135eca.js"
+    "static/js/main.74a3307d.js"
   ]
 }
