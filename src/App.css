@@ -4,63 +4,108 @@
   100% { background-position: 0% 50%; }
 }
 
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('./fonts/Burgundia.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinhaFonteCentury';
+  src: url('./fonts/GOTHIC.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinhaFonteCenturyBold';
+  src: url('./fonts/GOTHICB.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
+  /*font-family: 'MinhaFonte';*/
 }
-
 
 /*HEADER*/
 .App .header {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(14, 14, 14);
 }
 
-.App .header .logo {
+.App .header .header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+}
+
+.App .header .header-main .logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 10%;
+  height: 50%;
+}
+
+.App .header .header-main .logo a {
   display: flex;
   align-items: center;
-  width: 25%;
-  padding-left: 15px;
+  width: 100%;
+  height: 100%;
+  color: rgb(165, 165, 165);
+  font-size: 14px;
+  font-family: "MinhaFonte";
 }
 
-.App .header .logo img {
-  width: 70%;
+.App .header .header-main .logo a:hover {
+  color: rgb(211, 56, 0);
+  transition: all ease 0.4s;
 }
 
-.App .header .menu {
+/*.App .header .logo img {
+  width: rgb(255, 255, 255)
+}*/
+
+.App .header .header-main .menu {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 68%;
-  padding-right: 15px;
+  width: 70%;
 }
 
-.App .header .menu ul {
+.App .header .header-main .menu ul {
   display: flex;
   justify-content: space-between;
   width: 52%;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 13px;
+  /*font-weight: 600;*/
+  color: rgb(180, 180, 180);
+
   list-style-type: none;
 }
 
-.App .header .menu ul li {
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px;
-  transition: all ease 0.6s;
-  position: relative;
+.App .header .header-main .menu ul li {
+  transition: all ease 0.4s;
 }
 
-.App .header .menu ul li:hover {
-  border-bottom: 2px solid rgb(0, 0, 0);
+.App .header .header-main .menu ul li:hover {
+  color: rgb(230, 61, 0);
   cursor: pointer;
 }
 
-.App .header .menu ul a {
+.App .header .header-main .menu ul a {
   text-decoration: none;
   color: inherit;
 }
@@ -72,199 +117,146 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 90vh;
-  background-image: url('./images/firstsection/background.png');
-  background-size: 200%;
-  animation: moverBackground infinite 40s;
+  height: 85vh;
+  background-color: rgb(14, 14, 14);
 }
 
 .App main .first-section .first-section-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 90%;
 }
 
-.App main .first-section .first-section-main .first-section-main-1 {
+.App main .first-section .first-section-main .introduce-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
-  height: 100%;
-}
-
-.App main .first-section .first-section-main .first-section-main-1 .introduce-me {
-  width: 100%;
-  font-size: 4.7em;
-  color: rgb(0, 0, 0);
-  font-weight: 400;
-  margin: 0;
-}
-
-.App main .first-section .first-section-main .first-section-main-1 .buttons {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 90%;
-  height: 15%;
-}
-
-.App main .first-section .first-section-main .first-section-main-1 .buttons button {
-  width: 47%;
-  height: 70%;
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 0px 10px 0px 10px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.App main .first-section .first-section-main .first-section-main-1 .buttons button:hover {
-  background-color: black;
-  color: white;
-}
-
-.App main .first-section .first-section-main .first-section-main-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   width: 60%;
   height: 100%;
-  overflow: hidden;
+  font-family: 'MinhaFonte';
+  color: rgb(104, 104, 104);
+  font-size: 6.7rem;
+  line-height: 1.4;
+  font-weight: normal;
 }
 
-.App main .first-section .first-section-main .first-section-main-2 img {
-  transition: all ease 1s;
-  width: 95%;
-  height: 95%;
-}
-
-.App main .first-section .first-section-main .first-section-main-2 img:hover {
-  width: 92%;
-  height: 92%;
+.App main .first-section .first-section-main .introduce-me span {
+  color: rgb(104, 104, 104);
 }
 
 
-/*SECOND SECTION*/
+/*SECOND SECTION - PORTFÓLIO*/
 .App main .second-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  background-color: rgb(245, 245, 245);
 }
 
-.App main .second-section .section-my-services {
+.App main .second-section .portfolio {
   display: flex;
-  flex-direction: column;
-  width: 80%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   height: 100vh;
-  margin-top: 50px;
 }
 
-.App main .second-section .section-my-services .title {
-  width: 100%;
-  height: 20%;
-  font-weight: 500;
-  font-size: 60px;
-  margin: 0;
-}
-
-.App main .second-section .section-my-services .services {
+.App main .second-section .portfolio .desc-arts {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
   height: 70%;
 }
 
-.App main .second-section .section-my-services .services .service-1, .service-2 {
+.App main .second-section .portfolio .desc-arts .title {
   display: flex;
-  justify-content: space-between;
-  width: 94%;
-  height: 32%;
-  padding: 30px;
-  border-radius: 10px;
-  user-select: none;
-  border: 3px solid black;
-  border-left: 7px solid black;
-  border-bottom: 7px solid black;
-}
-
-.App main .second-section .section-my-services .services .service-1:hover, .service-2:hover {
-  box-shadow: 0px 0px 30px rgb(197, 197, 197);
-}
-
-.App main .second-section .section-my-services .services .service-1 .service-1-check, .service-2 .service-2-check {
-  display: flex;
+  justify-content: center;
   align-items: center;
-  width: 10%;
-  height: 100%;
-}
-
-.App main .second-section .section-my-services .services .service-1 .service-1-check img, .service-2 .service-2-check img {
-  width: 150%;
-  height: 100%;
-}
-
-.App main .second-section .section-my-services .services .service-1 .service-1-desc, .service-2 .service-2-desc {
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  height: 100%;
-}
-
-.App main .second-section .section-my-services .services .service-1 .service-1-desc .title1, .service-2 .service-2-desc .title2 {
-  display: flex;
-  align-items: end;
-  width: 85%;
-  height: 40%;
-  font-size: 50px;
-  font-weight: 400;
-  margin: 0;
-}
-
-.App main .second-section .section-my-services .services .service-1 .service-1-desc .desc, .service-2 .service-2-desc .desc {
-  display: flex;
+  text-align: center;
   width: 100%;
+  height: 25%;
+  font-size: 7rem;
+  color: rgb(155, 155, 155);
+  font-family: 'MinhaFonte';
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0;
+  /*background-color: rgb(112, 30, 0);*/
+}
+
+.App main .second-section .portfolio .desc-arts .title.pizza {
+  font-size: 5.6rem;
+}
+
+.App main .second-section .portfolio .desc-arts .title.lanche {
+  font-size: 4.5rem;
+  height: 13%;
+}
+
+.App main .second-section .portfolio .desc-arts .title.bar {
+  font-size: 5.4rem;
+  height: 18%;
+}
+
+
+
+.App main .second-section .portfolio .desc-arts .art-desc {
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  width: 85%;
   height: 60%;
-  font-size: 18px;
-  font-weight: 500;
-  color: rgb(0, 0, 0);
-  margin: 0;
+  font-family: 'MinhaFonteCentury';
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 17px;
+  font-size: 1.25vw;
+  color: rgb(110, 110, 110);
 }
 
 
-/*SECTION PORTFÓLIO*/
-.App main .second-section .section-portfolio {
+.App main .second-section .portfolio .arts-examples {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+}
+
+.App main .second-section .portfolio .arts-examples .arts-examples-main {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 80%;
+  height: 75%;
+  border-top: 1px solid rgb(165, 165, 165);
+  border-bottom: 1px solid rgb(165, 165, 165);
 }
 
-.App main .second-section .section-portfolio .section-portfolio-title {
-  width: 100%;
-  height: 140px;
-  font-size: 60px;
-  font-weight: 500;
-  margin: 0;
+.App main .second-section .portfolio .arts-examples .arts-examples-main img {
+  width: 29%;
+  border-radius: 15px;
+  transition: all ease 1s;
 }
 
-.App main .second-section .section-portfolio .section-portfolio-examples {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
+.App main .second-section .portfolio .arts-examples .arts-examples-main img:hover {
+  width: 33%;
+  cursor: pointer;
 }
+
 
 .App .portfolio-modal {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   position: fixed;
   z-index: 99;
@@ -280,11 +272,11 @@
   justify-content: right;
   align-items: center;
   text-align: center;
-  width: 90%;
-  height: 15%;
+  width: 93%;
+  height: 10%;
   color: white;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .App .portfolio-modal .close-modal div {
@@ -293,568 +285,532 @@
 
 .App .portfolio-modal .modal-main {
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 90%;
-  height: 85%;
+  height: 90%;
 }
 
-.App .portfolio-modal .modal-main .modal-image {
+.App .portfolio-modal .modal-main img {
+  width: 35%;
+}
+
+
+/*THIRD SECTION - MY SERVICES*/
+.App main .third-section {
   display: flex;
-  justify-content: right;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(14, 14, 14);
+}
+
+.App main .third-section .services {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 60%;
+  height: 25%;
+  font-size: 3rem;
+  font-family: "MinhaFonteCentury";
+  color: rgb(184, 184, 184);
+  margin: 0;
+  font-weight: normal;
+}
+
+.App main .third-section .services-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 75%;
+}
+
+.App main .third-section .services-main .service-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 29%;
   height: 80%;
 }
 
-.App .portfolio-modal .modal-main .modal-image img {
-  width: 75%;
+.App main .third-section .services-main .service-box img {
+  width: 60%;
 }
 
-.App .portfolio-modal .modal-main .modal-image-desc {
+.App main .third-section .services-main .service-box .service-information {
   display: flex;
-  width: 45%;
-  height: 100%;
-  font-size: 20px;
-  padding-left: 40px;
-  color: white;
-  margin: 0;
-}
-
-.App main .second-section .section-portfolio .section-portfolio-examples .arte-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30%;
-  height: 400px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 10px;
-  margin-bottom: 50px;
-  box-shadow: 0px 0px 15px rgb(155, 155, 155);
-} 
-
-.App main .second-section .section-portfolio .section-portfolio-examples .arte-box:hover {
-  box-shadow: 0px 0px 20px rgb(158, 158, 158);
-}
-
-.App main .second-section .section-portfolio .section-portfolio-examples .arte-box .arte-img {
-  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 95%;
-  height: 100%;
-  overflow: hidden;
+  height: 50%;
+}
+
+.App main .third-section .services-main .service-box .service-information .service-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 27%;
+  font-family: 'MinhaFonteCentury';
+  font-weight: normal;
+  font-size: 1.6rem;
+  color: rgb(184, 184, 184);
+  margin: 0;
+}
+
+.App main .third-section .services-main .service-box .service-information .service-desc {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 65%;
+  font-family: 'MinhaFonteCentury';
+  font-size: 15px;
+  line-height: 1.4;
+  color: rgb(170, 170, 170);
+  margin: 0;
+}
+
+
+
+/*FOURTH SECTION*/
+.App main .fourth-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(14, 14, 14);
+}
+
+.App main .fourth-section .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+}
+
+.App main .fourth-section .contacts-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 35%;
+}
+
+.App main .fourth-section .contacts-text .contact-title {
+  width: 100%;
+  height: 80%;
+  margin: 0;
+  font-family: 'MinhaFonteCentury';
+  font-weight: normal;
+  line-height: 1;
+  font-size: 56.7px;
+  color: rgb(184, 184, 184);
+}
+
+.App main .fourth-section .contacts-text .contact-subtitle {
+  width: 100%;
+  height: 12%;
+  margin: 0;
+  font-size: 20.8px;
+  
+  font-family: 'MinhaFonteCentury';
+  opacity: 90%;
+  color: orangered;
+}
+
+
+
+.App main .fourth-section .contact-box-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  width: 100%;
+  height: 56%;
+}
+
+.App main .fourth-section .contact-box-main .contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 28%;
+  height: 90%;
+  border-radius: 25px;
+  border: 3px solid rgb(201, 54, 0);
+  color: rgb(201, 54, 0);;
   cursor: pointer;
 }
 
-.App main .second-section .section-portfolio .section-portfolio-examples .arte-box .arte-img img {
-  border-radius: 10px;
-  width: 80%;
+.App main .fourth-section .contact-box-main .contact-box:hover {
+  background-color: rgb(201, 54, 0);
+  color: white;
+}
+
+.App main .fourth-section .contact-box-main .contact-box .contact-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 80%;
+}
+
+.App main .fourth-section .contact-box-main .contact-box .contact-image img {
+  width: 60%;
   transition: all ease 1s;
 }
 
-.App main .second-section .section-portfolio .section-portfolio-examples .arte-box .arte-img img:hover {
-  width: 85%;
+.App main .fourth-section .contact-box-main .contact-box .contact-image img:hover {
+  width: 80%;
 }
 
-
-/*THIRD SECTION*/
-.App main .third-section {
+.App main .fourth-section .contact-box-main .contact-box .contact-name {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
-  margin-top: 60px;
-}
-
-.App main .third-section .third-section-main {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  height: 300px;
-}
-
-.App main .third-section .third-section-main .box1 {
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-
-.App main .third-section .third-section-main .box1 .text1 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 70%;
-  font-size: 58px;
-  font-weight: 500;
-  line-height: 1;
-}
-
-.App main .third-section .third-section-main .box1 .text2 {
-  display: flex;
-  width: 100%;
-  height: 10%;
-  font-size: 30px;
+  height: 30%;
+  margin: 0;
+  font-size: 2rem;
   font-weight: 600;
-  color: purple;
-}
-
-.App main .third-section .third-section-main .box2 {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-  border-radius: 10px;
-}
-
-.App main .third-section .third-section-main .box2 .box2-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  
-  width: 90%;
-  height: 55%;
-  border: 3px solid black;
-  border-bottom: 6px solid black;
-  border-left: 6px solid black;
-  padding-left: 10px;
-  border-radius: 10px;
-  
-}
-
-.App main .third-section .third-section-main .box2 .box2-main:hover {
-  border-bottom: 9px solid black;
-  border-left: 9px solid black;
-}
-
-.App main .third-section .third-section-main .box2 .box2-main .contacts {
-  display: flex;
-  align-items: center;
-  width: 80%;
-  height: 33%;
-}
-
-.App main .third-section .third-section-main .box2 .box2-main .contacts .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 15%;
-  height: 50%;
-}
-
-.App main .third-section .third-section-main .box2 .box2-main .contacts .logo img {
-  width: 50%;
-}
-
-.App main .third-section .third-section-main .box2 .box2-main .contacts a {
-  color: black;
-}
-
-.App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-  display: flex;
-  width: 80%;
-  height: 50%;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.App main .third-section .third-section-main .box2 .box2-main .contacts .name:hover {
-  color: purple;
+  font-family: 'MinhaFonteCentury';
 }
 
 
 /*FOOTER*/
-footer {
+.footer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 120px;
-  margin-top: 30px;
+  /*height: 200px;*/
+  height: 29.4vh;
+  background-color: rgb(14, 14, 14);
   color: white;
-  background-color: black;
-  margin-top: 120px;
 }
 
-footer .footer-main {
+.footer .footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 80%;
+}
+
+.footer .footer-main .footer-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  height: 50%;
+  width: 15%;
+  height: 60%;
 }
 
-footer .footer-main .options {
+.footer .footer-main .footer-menu .footer-menu-title {
   display: flex;
+  align-items: center;
+  width: 100%;
+  height: 35%;
+  font-size: 1.3rem;
+  font-family: 'MinhaFonteCentury';
+  opacity: 90%;
+  color: orangered;
+}
+
+.footer .footer-main .footer-menu .footer-menu-options {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 50%;
-  height: 50%;
-  font-size: 17px;
+  width: 100%;
+  height: 65%;
+  font-family: 'MinhaFonteCentury';
+  font-size: 15px;
 }
 
-footer .footer-main .options a {
-  color: white;
+.footer .footer-main .footer-menu .footer-menu-options a {
+  color: rgb(221, 221, 221);
+  width: 100%;
+  height: 30%;
+  text-decoration: none;
 }
 
-footer .footer-main .options a:hover {
-  color: rgb(187, 0, 187);
+.footer .footer-main .footer-menu .footer-menu-options a:hover {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 30%;
+  text-decoration: none;
+}
+
+.footer .footer-main .footer-rights {
+  display: flex;
+  align-items: center;
+  width: 59%;
+  height: 60%;
+  font-size: 3.3rem;
+  font-family: 'MinhaFonteCenturyBold';
+  font-weight: normal;
+  line-height: 1.1;
+  opacity: 80%;
+  color: rgb(230, 46, 0);
 }
 
 
 
+
+/*FEITO*/
 /*Large screens*/
 @media (min-width: 1920px) {
-  .App .header .logo img {
-  width: 75%;
+  .App .header {
+    height: 13vh;
   }
 
-  .App .header .menu ul {
+  .App .header .header-main .logo {
+    width: 20%;
+  }
+
+  .App .header .header-main .logo a {
+    font-size: 21px;
+  }
+
+  .App .header .header-main .menu ul {
+    font-size: 18.5px;
+  }
+
+  .App main .first-section {
+    height: 87vh;
+  }
+
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 10rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title {
+    font-size: 9.4rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    font-size: 8rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    font-size: 6.3rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    font-size: 7.3rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    font-size: 25.1px;
+  }
+
+  .App main .second-section .portfolio .arts-examples .arts-examples-main {
+    border-top: 2px solid rgb(197, 197, 197);
+    border-bottom: 2px solid rgb(197, 197, 197);
+  }
+
+  .App main .third-section {
+    height: 90vh;
+  }
+
+  .App main .third-section .services {
+    height: 20%;
+    font-size: 4rem;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    font-size: 2.3rem;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 1.3rem;
+  }
+
+  .App main .fourth-section .contacts .contacts-text .contact-title {
+    font-size: 79.7px;
+    height: 75%;
+  }
+
+  .App main .fourth-section .contacts .contacts-text .contact-subtitle {
+    font-size: 29.2px;
+    height: 16%;
+  }
+
+  .App main .fourth-section .contacts .contact-box-main .contact-box {
+    border: 4px solid rgb(201, 54, 0);
+  }
+
+  .App main .fourth-section .contacts .contact-box-main .contact-box .contact-name {
+    font-size: 45px;
+  }
+
+  .App .footer {
+    align-items: start;
+    height: 20vh;
+  }
+
+  .App .footer .footer-main {
+    align-items: start;
+    height: 90%;
+
+  }
+
+  .App .footer .footer-main .footer-menu {
+    height: 75%;
+  }
+
+  .App .footer .footer-main .footer-menu .footer-menu-title {
     font-size: 30px;
   }
 
-  .App main .first-section .first-section-main .first-section-main-1 .introduce-me {
-    font-size: 7em;
+  .App .footer .footer-main .footer-menu .footer-menu-options {
+    font-size: 21px;
   }
 
-  .App main .first-section .first-section-main .first-section-main-1 .buttons {
-    width: 90%;
-    height: 13%;
+  .App .footer .footer-main .footer-rights {
+    height: 70%;
+    font-size: 74px;
+  }
+}
+
+
+
+/*FEITO*/
+/*Desktops*/
+@media (min-width: 1280px) and (max-width: 1280px) {
+  .App .header {
+    height: 13vh;
   }
 
-  .App main .first-section .first-section-main .first-section-main-1 .buttons button {
-    font-size: 23px;
-    border: 4px solid black;
-    border-radius: 0px 12px;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-2 {
-    height: 90%;
-  }
-
-  .App main .second-section .section-my-services {
-    margin-top: 20px;
-  }
-
-  .App main .second-section .section-my-services .title {
-    height: 17%;
-    font-size: 90px;
-  }
-
-  .App main .second-section .section-my-services .services .service-1, .service-2 {
-    height: 36%;
-    padding: 30px;
-    width: 96%;
-    border-radius: 15px;
-    border: 5px solid black;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
-  }
-
-  .App main .second-section .section-my-services .services .service-1:hover, .service-2:hover {
-    box-shadow: 0px 0px 30px rgb(197, 197, 197);
-  }
-
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-check, .service-2 .service-2-check {
+  .App .header .header-main .logo {
     width: 12%;
   }
 
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .title1, .service-2 .service-2-desc .title2 {
-    align-items: start;
-    height: 40%;
-    font-size: 80px;
+  .App .header .header-main .logo a {
+    font-size: 14px;
   }
 
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .desc, .service-2 .service-2-desc .desc {
-    font-size: 26px;
+  .App main .first-section {
+    height: 87vh;
   }
 
-  .App main .second-section .section-portfolio .section-portfolio-title {
-    height: 180px;
-    font-size: 90px;
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    font-size: 4.2rem;
   }
 
-  .App .portfolio-modal .close-modal {
-    font-size: 50px;
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    font-size: 5rem;
   }
 
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 85%;
-  }
-
-  .App .portfolio-modal .modal-main .modal-image-desc {
-    font-size: 30px;
-  }
-
-  .App main .second-section .section-portfolio .section-portfolio-examples .arte-box {
-    height: 520px;
-    border-radius: 13px;
-    margin-bottom: 60px;
-  } 
-
-  .App main .second-section .section-portfolio .section-portfolio-examples .arte-box:hover {
-    box-shadow: 0px 0px 20px rgb(158, 158, 158);
-  }
-
-  .App main .second-section .section-portfolio .section-portfolio-examples .arte-box .arte-img img {
-    border-radius: 13px;
-  }
-
-  .App main .third-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 60px;
-  }
-
-  .App main .third-section .third-section-main {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    height: 350px;
-  }
-
-  .App main .third-section .third-section-main .box1 {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-  }
-
-  .App main .third-section .third-section-main .box1 .text1 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 70%;
-    font-size: 80px;
-    font-weight: 500;
-    line-height: 1;
-  }
-
-  .App main .third-section .third-section-main .box1 .text2 {
-    display: flex;
-    align-items: end;
-    width: 100%;
-    height: 22%;
-    font-size: 42px;
-    font-weight: 600;
-    color: purple;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main {
-    height: 70%;
-    border: 4px solid black;
-    border-bottom: 9px solid black;
-    border-left: 9px solid black;
-    padding-left: 12px;
-    border-radius: 12px;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main:hover {
-    border-bottom: 13px solid black;
-    border-left: 13px solid black;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-    font-size: 29px;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name:hover {
-    color: purple;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 160px;
-    margin-top: 30px;
-    color: white;
-    background-color: black;
-    margin-top: 100px;
-  }
-
-  footer .footer-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-    height: 50%;
-  }
-
-  footer .footer-main .options {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-    height: 50%;
+  .App main .third-section .services-main .service-box .service-information .service-title {
     font-size: 25px;
   }
 
-  footer .footer-main .options a:hover {
-    color: rgb(187, 0, 187);
+  .App main .fourth-section .contacts .contacts-text .contact-title {
+    font-size: 50px;
   }
 
-  footer .footer-main .copyright {
-    display: flex;
-    justify-content: center;
-    width: 51%;
-    font-size: 23px;
-  }
-}
-
-
-/*Desktops*/
-@media (min-width: 1280px) and (max-width: 1280px) {
-  .App main .first-section .first-section-main .first-section-main-2 {
-    height: 90%;
-  }
-
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 88%;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-    font-size: 19px;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1024px) {
-  .App .header .logo img { 
-    width: 90%;
-  }
-
-  .App .header .menu ul {
-    width: 70%;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-1 .buttons {
-    width: 100%;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-2 {
-    height: 70%;
-  }
-
-  .App .portfolio-modal .modal-main {
-    justify-content: center;
-  }
-
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 88%;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-    font-size: 19px;
-  }
-
-  .App main .second-section .section-my-services {
-    margin-top: 10px;
-  }
-
-  .App main .second-section .section-my-services .title {
+  .App main .fourth-section .contacts .contacts-text .contact-subtitle {
     height: 15%;
+    font-size: 19.4px;
+  }
+
+  .App .footer .footer-main .footer-rights {
     font-size: 50px;
-  }
-
-  .App main .second-section .section-my-services .services .service-1, .service-2 {
-    height: 33%;
-    padding: 30px;
-    width: 96%;
-    border-radius: 15px;
-    border: 3px solid black;
-    border-left: 8px solid black;
-    border-bottom: 8px solid black;
-  }
-
-  .App main .second-section .section-my-services .services .service-1:hover, .service-2:hover {
-    box-shadow: 0px 0px 30px rgb(197, 197, 197);
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-check, .service-2 .service-2-check {
-    width: 13%;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .title1, .service-2 .service-2-desc .title2 {
-    align-items: start;
-    height: 40%;
-    font-size: 50px;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .desc, .service-2 .service-2-desc .desc {
-    font-size: 18px;
-  }
-
-  .App main .second-section .section-portfolio .section-portfolio-title {
-    height: 110px;
-    font-size: 50px;
-  }
-
-  .App main .second-section .section-portfolio .section-portfolio-examples .arte-box {
-    height: 300px;
-    margin-bottom: 40px;
-  }
-
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 110%;
-  }
-
-  .App main .third-section {
-    margin-top: 0;
-  }
-
-  .App main .third-section .third-section-main .box1 .text1 {
-    height: 55%;
-    font-size: 46px;
-  }
-
-  .App main .third-section .third-section-main .box1 .text2 {
-    font-size: 24px;
-    height: 12%;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main {
-    height: 50%;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .logo img {
-    width: 60%;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-    font-size: 17px;
-    width: 100%;
-  }
-
-  footer {
-    height: 110px;
-    margin-top: 30px;
-  }
-
-  footer .footer-main {
-    width: 50%;
-    height: 55%;
-  }
-
-  footer .footer-main .options {
-    width: 70%;
-  }
-
-  footer .footer-main .copyright {
-    font-size: 1.7vw;
   }
 }
 
-@media (min-width: 1114px) and (max-width: 1114px) {
+
+
+/*FEITO*/
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .App .header .header-main .logo {
+    width: 14%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title {
+    font-size: 5.5rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    font-size: 4.8rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    font-size: 3.5rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    font-size: 4rem;
+    height: 13%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    font-size: 16px;
+  }
+
+  .App .portfolio-modal .modal-main img {
+    width: 45%;
+  }
+
+  .App main .third-section .services-main {
+    width: 70%;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    font-size: 23.3px;
+  }
+
+  .App main .fourth-section .contacts {
+    width: 70%;
+  }
+
+  .App main .fourth-section .contacts-text .contact-title {
+    font-size: 49.5px;
+  }
+
+  .App main .fourth-section .contacts-text .contact-subtitle {
+    height: 17%;
+    font-size: 18.1px;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-name {
+    font-size: 29px;
+  }
+
+  .footer {
+    height: 18vh;
+  }
+
+  .footer .footer-main {
+    width: 70%;
+  }
+
+  .footer .footer-main .footer-menu {
+    height: 80%;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-title {
+    font-size: 20px;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-options {
+    font-size: 14px;
+  }
+
+  .footer .footer-main .footer-rights {
+    font-size: 2.7rem;
+  }
+
+}
+
+
+/*@media (min-width: 1114px) and (max-width: 1114px) {
   .App .header .logo img {
     width: 90%;
   }
@@ -929,467 +885,996 @@ footer .footer-main .options a:hover {
   .App .portfolio-modal .modal-main .modal-image img {
     width: 82%;
   }
-}
+}*/
 
+
+
+/*FEITO*/
 @media (min-width: 1440px) and (max-width: 1440px) {
-  .App main .first-section .first-section-main .first-section-main-2 {
-    height: 80%;
+  .App .header .header-main .logo {
+    width: 11%;
   }
 
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 92%;
+  .App .header .header-main .logo a {
+    font-size: 15px;
   }
 
-  .App main .first-section .first-section-main .first-section-main-1 .buttons button {
-    font-size: 1.3vw;
+  .App .header .header-main .menu ul {
+    font-size: 13.5px;
+  }
+
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 120px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title {
+    font-size: 120px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    font-size: 95px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    font-size: 75px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    font-size: 18px;
+  }
+
+  .App main .fourth-section .contacts-text .contact-title {
+    font-size: 59.7px;
+  }
+
+  .App main .fourth-section .contacts-text .contact-subtitle {
+    height: 20%;
+    font-size: 21.9px;
+  }
+
+  .App .footer .footer-main .footer-rights {
+    font-size: 56.2px;
   }
 }
 
-@media (min-width: 1600px) and (max-width: 1600px) {
-  .App main .first-section .first-section-main .first-section-main-2 {
-    height: 90%;
+
+
+/*FEITO*/
+@media (min-width: 1500px) and (max-width: 1800px) {
+  .App .header .header-main .logo {
+    width: 12%;
   }
 
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 82%;
+  .App .header .header-main .logo a {
+    font-size: 17px;
   }
 
-  .App main .first-section .first-section-main .first-section-main-1 .buttons button {
-    font-size: 1.3vw;
+  .App .header .header-main .menu ul {
+    font-size: 14.5px;
   }
 
-  .App main .third-section .third-section-main .box1 .text1 {
-    font-size: 4.3vw;
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 130px;
   }
 
-  .App main .third-section .third-section-main .box1 .text2 {
-    font-size: 2.3vw;
+  .App main .second-section .portfolio .desc-arts .title {
+    font-size: 130px;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main {
-    height: 60%;
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    font-size: 105px;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-    font-size: 1.5vw;
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    font-size: 80px;
   }
 
-  .App footer .footer-main {
-    width: 42%;
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    font-size: 95px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    font-size: 20px;
+  }
+
+  .App main .third-section .services {
+    font-size: 3.5rem;
+  } 
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    font-size: 1.9rem;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 1.1rem;
+  }
+
+  .App main .fourth-section .contacts-text .contact-title {
+    font-size: 66.4px;
+  }
+
+  .App main .fourth-section .contacts-text .contact-subtitle {
+    height: 18%;
+    font-size: 24.3px;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-name {
+    font-size: 37px;
+  }
+
+  .App .footer .footer-main .footer-rights {
+    font-size: 62px;
   }
 }
+
+
+/*FEITO*/
+@media (min-width: 2560px) and (max-width: 2560px) {
+  .App .header .header-main .logo {
+    width: 12%;
+  }
+
+  .App .header .header-main .logo a {
+    font-size: 27px;
+  }
+
+  .App .header .header-main .menu ul {
+    font-size: 21.5px;
+  }
+
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 210px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title {
+    font-size: 200px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    font-size: 180px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    font-size: 130px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    font-size: 150px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    font-size: 33.4px;
+  }
+
+  .App main .third-section .services {
+    font-size: 5rem;
+  } 
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    font-size: 3.1rem;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 1.8rem;
+  }
+
+  .App main .fourth-section .contacts .contacts-text .contact-title {
+    font-size: 106.2px;
+  }
+
+  .App main .fourth-section .contacts .contacts-text .contact-subtitle {
+    height: 18%;
+    font-size: 38.9px;
+  }
+
+  .App main .fourth-section .contacts .contact-box-main .contact-box .contact-name {
+    font-size: 55px;
+  }
+
+  .App .footer .footer-main .footer-menu .footer-menu-title {
+    font-size: 35px;
+  }
+
+  .App .footer .footer-main .footer-menu .footer-menu-options {
+    font-size: 25px;
+  }
+
+  .App .footer .footer-main .footer-rights {
+    font-size: 98px;
+  }
+}
+
+
+
+/*FEITO*/
+@media (min-width: 3840px) and (max-width: 3840px) {
+  .App .header .header-main .logo {
+    width: 12%;
+  }
+
+  .App .header .header-main .logo a {
+    font-size: 40px;
+  }
+
+  .App .header .header-main .menu ul {
+    font-size: 35px;
+  }
+
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 320px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title {
+    font-size: 300px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    font-size: 250px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    font-size: 200px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    font-size: 230px;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    font-size: 50.2px;
+  }
+
+   .App main .second-section .portfolio .arts-examples .arts-examples-main {
+    border-top: 4px solid rgb(197, 197, 197);
+    border-bottom: 4px solid rgb(197, 197, 197);
+  }
+
+  .App .portfolio-modal .close-modal {
+    font-size: 80px;
+  }
+
+  .App main .third-section .services {
+    font-size: 8rem;
+  } 
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    font-size: 4.6rem;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 2.9rem;
+  }
+
+  .App main .fourth-section .contacts .contacts-text .contact-title {
+    font-size: 159.4px;
+  }
+
+  .App main .fourth-section .contacts .contacts-text .contact-subtitle {
+    height: 18%;
+    font-size: 58.4px;
+  }
+
+  .App main .fourth-section .contacts .contact-box-main .contact-box {
+    border: 6px solid rgb(201, 54, 0);
+  }
+
+  .App main .fourth-section .contacts .contact-box-main .contact-box .contact-name {
+    font-size: 80px;
+  }
+
+  .App .footer .footer-main .footer-menu .footer-menu-title {
+    font-size: 50px;
+  }
+
+  .App .footer .footer-main .footer-menu .footer-menu-options {
+    font-size: 35px;
+  }
+
+  .App .footer .footer-main .footer-rights {
+    font-size: 148px;
+  }
+}
+
+
 
 
 /*mobile*/
 @media (max-width: 480px) {
-  .App .header {
-    width: 100%;
-  }
-
-  .App .header .logo {
+  .App .header .header-main .logo {
     display: none;
   }
 
-  .App .header .menu {
+  .App .header .header-main .menu {
     width: 100%;
-    justify-content: center;
   }
 
-  .App .header .menu ul {
-    width: 95%;
-    justify-content: space-between;
+  .App .header .header-main .menu ul {
+    width: 100%;
+    font-size: 13px;
+    font-size: 3.4vw;
     padding: 0;
-    padding-left: 15px;
   }
 
-  .App .header .menu ul li {
-    font-size: 5vw;
-  }
-
-  .App main .first-section .first-section-main {
-    flex-direction: column;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-1 {
-    width: 100%;
-    height: 90%;
-    justify-content: center;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-1 .introduce-me {
-    font-size: 21vw;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-1 .buttons button {
-    background-color: black;
-    color: white;
-    font-size: 4vw;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-2 {
-    display: none;
-  }
-
-  .App main .second-section .section-my-services {
-    width: 90%;
-  }
-
-  .App main .second-section .section-my-services .title {
-    width: 93%;
-    height: 13%;
-    font-size: 11vw;
-  }
-
-  .App main .second-section .section-my-services .services {
-    width: 90%;
-    height: 87%;
-  }
-
-  .App main .second-section .section-my-services .services .service-1, .service-2 {
-    height: 42%;
-    margin: 0;
-    padding-left: 15px;
-    padding-top: 0;
-    overflow-y: scroll;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-check, .service-2 .service-2-check {
-    display: none;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc, .service-2 .service-2-desc {
-    width: 100%;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .title1, .service-2 .service-2-desc .title2 {
-    width: 100%;
-    height: 20%;
-    font-size: 7vw;
-    font-weight: 500;
-    margin-bottom: 10px;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .desc, .service-2 .service-2-desc .desc {
-    width: 100%;
-    height: 80%;
-    font-size: 4.5vw;
-    font-weight: 500;
-  }
-
-  .App main .second-section .section-portfolio {
-    width: 90%;
-    margin-top: 60px;
-  }
-
-  .App main .second-section .section-portfolio .section-portfolio-title {
-    height: 90px;
-    font-size: 50px;
-  }
-
-  .App main .second-section .section-portfolio .section-portfolio-examples .arte-box {
-    width: 100%;
-  }
-
-  .App .portfolio-modal {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 99;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.96);
-    backdrop-filter: blur(10px);
-    display: none;
-  }
-
-  .App .portfolio-modal .close-modal {
-    height: 8%;
-    font-size: 30px;
-  }
-
-  .App .portfolio-modal .modal-main {
-    flex-direction: column;
-    height: 92%;
-    align-items: center;
-  }
-
-  .App .portfolio-modal .modal-main .modal-image {
-    justify-content: center;
-    width: 80%;
-    height: 50%;
-  }
-
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 90%;
-  }
-
-  .App .portfolio-modal .modal-main .modal-image-desc {
-    width: 100%;
-    height: 50%;
-    font-size: 18px;
-    padding-left: 0px;
-    overflow-y: auto;
-  }
-
-  .App main .third-section {
-    margin-top: 25px;
-  }
-
-  .App main .third-section .third-section-main {
-    flex-direction: column;
-    width: 90%;
-    height: 400px;
-  }
-
-  
-  .App main .third-section .third-section-main .box1 {
-    width: 100%;
-    height: 40%;
-  }
-
-  .App main .third-section .third-section-main .box1 .text1 {
-    font-size: 9vw;
-    width: 100%;
-    height: 80%;
-  }
-
-  .App main .third-section .third-section-main .box1 .text2 {
-    font-size: 5vw;
-    width: 100%;
-    height: 20%;
-  }
-
-  .App main .third-section .third-section-main .box2 {
-    width: 100%;
-    height: 55%;
+  .App main .first-section {
     align-items: start;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main {
-    width: 100%;
-    height: 70%;
+  .App main .first-section .first-section-main {
+    height: 85%;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main:hover {
-    border-bottom: 6px solid black;
-    border-left: 6px solid black;
-  }
-
-  .App main .third-section .third-section-main .box2 .box2-main .contacts {
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 75px;
     width: 100%;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-    width: 80%;
-    font-size: 4.5vw;
+
+
+  /*SECOND SECTION - PORTFÓLIO*/
+  .App main .second-section .portfolio {
+    /**/flex-direction: column;
+    /**/height: 80vh;
   }
 
-  footer {
-    height: 110px;
-    margin-top: 30px;
+  .App main .second-section .portfolio .desc-arts {
+    /**/width: 90%;
+    /**/height: 65%;
   }
 
-  footer .footer-main {
-    width: 96%;
-    height: 55%;
+  .App main .second-section .portfolio .desc-arts .title {
+    /**/justify-content: left;
+    /**/align-items: end;
+    /**/width: 85%;
+    /**/height: 40%;
+    /**/font-size: 5rem;
   }
 
-  footer .footer-main .options {
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 4.5rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 3.7rem;
+    height: 20%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    /**/align-items: end;
+    /**/height: 40%;
+    font-size: 4rem;
+    height: 20%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+
+    /*align-items: center;*/
+    /**/width: 85%;
+    /**/height: 60%;
+    /**/font-size: 17.9px;
+    font-size: 4.9vw;
+  }
+
+  .App main .second-section .portfolio .arts-examples {
+    /**/width: 90%;
+    /**/height: 35%;
+  }
+
+  .App main .second-section .portfolio .arts-examples .arts-examples-main {
     width: 90%;
   }
 
-  footer .footer-main .copyright {
-    font-size: 4.2vw;
+  .App .portfolio-modal .close-modal {
+    width: 90%;
+    font-weight: 400;
+  }
+
+  .App .portfolio-modal .modal-main img {
+    width: 95%;
+  }
+
+  /*THIRD SECTION - MY SERVICES*/
+  .App main .third-section {
+    justify-content: space-between;
+  }
+
+  .App main .third-section .services {
+    /**/width: 76%;
+    /**/height: 10%;
+    /**/font-size: 2.5rem;
+    /**/justify-content: left;
+
+  }
+
+  .App main .third-section .services-main {
+    /**/flex-direction: column;
+    /**/width: 85%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box {
+    /**/width: 100%;
+    /**/border-bottom: 1px solid gray;
+  }
+
+  .App main .third-section .services-main .service-box img {
+    display: none;
+  }
+
+  .App main .third-section .services-main .service-box .service-information {
+    /**/width: 90%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    justify-content: left;
+    height: 20%;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 15px;
+    font-size: 4vw;
+  }
+
+  /*FOURTH SECTION*/
+  .App main .fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 14, 14);
+  }
+
+  .App main .fourth-section .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /**/width: 80%;
+    /**/height: 93%;
+  }
+
+  .App main .fourth-section .contacts-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    /**/height: 20%;
+  }
+
+  .App main .fourth-section .contacts-text .contact-title {
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    font-family: 'MinhaFonteCentury';
+    font-weight: normal;
+    /**/line-height: 1.1;
+    /**/font-size: 31.5px;
+    font-size: 8.07vw;
+  }
+
+  .App main .fourth-section .contacts-text .contact-subtitle {
+    display: none;
+  }
+
+  .App main .fourth-section .contact-box-main {
+    /**/flex-wrap: wrap;
+    /**/align-items: center;
+    /**/height: 85%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box {
+    /**/width: 100%;
+    /**/height: 30%;
+    /**/border-radius: 20px;
+    /**/border: 0px solid rgb(201, 54, 0);
+    background-color: rgb(201, 54, 0);
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img {
+    /**/width: 50%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img:hover {
+    /**/width: 50%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-name {
+    /**/font-size: 1.8rem;
+    color: white;
+  }
+
+  /*FOOTER*/
+  .footer {
+    /**/height: 25vh;
+  }
+
+  .footer .footer-main {
+    /**/width: 85%;
+  }
+
+  .footer .footer-main .footer-menu {
+    /**/width: 28%;
+    /**/height: 55%;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-title {
+    align-items: start;
+    font-size: 4.5vw;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-options {
+    align-items: start;
+    font-size: 3.5vw;
+  }
+
+  .footer .footer-main .footer-rights {
+    /**/width: 30%;
+    /**/height: 50%;
+    /**/font-size: 5.04vw;
+
   }
 }
 
 
 /*Small tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
-  .App .header {
-    justify-content: center;
-  }
-
-  .App .header .logo {
+  .App .header .header-main .logo {
     display: none;
   }
 
-
-  .App .header .menu {
+  .App .header .header-main .menu {
     justify-content: center;
-    width: 85%;
-  }
-
-  .App .header .menu ul {
     width: 100%;
-    font-size: 3.2vw;
   }
 
-  
+  .App .header .header-main .menu ul {
+    width: 90%;
+    font-size: 13px;
+    font-size: 2.7vw;
+    padding: 0;
+  }
+
   .App main .first-section {
-    height: 60vh;
-    background-color: green;
+    align-items: start;
   }
 
   .App main .first-section .first-section-main {
-    justify-content: center;
-    height: 90%;
-    width: 90%;
+    height: 85%;
   }
 
-  .App main .first-section .first-section-main .first-section-main-1 {
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-1 .introduce-me {
-    font-size: 13vw;
-    height: 80%;
-    width: 70%;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-1 .buttons {
-    font-size: 13vw;
-    height: 20%;
-    width: 70%;
-  }
-
-  .App main .first-section .first-section-main .first-section-main-1 .buttons button {
-    font-size: 3.2vw;
-    border-radius: 0 20px;
-    background-color: black;
-    color: white;
-    border: 4px solid black;
-  }
-
-
-  .App main .first-section .first-section-main .first-section-main-2 {
-    display: none;
-  }
-  
-  .App main .second-section .section-my-services {
-    margin-top: 70px;
-    width: 90%;
-  }
-
-  .App main .second-section .section-my-services .title {
-    height: 15%;
-  }
-
-  .App main .second-section .section-my-services .services .service-1, .service-2 {
-    width: 95%;
-    padding: 18px;
-    height: 40%;
-    border: 4px solid black;
-    border-left: 8px solid black;
-    border-bottom: 8px solid black;
-    overflow-y: auto;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-check, .service-2 .service-2-check {
-    display: none;
-  }
-
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc, .service-2 .service-2-desc {
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 17vw;
     width: 100%;
   }
 
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .title1, .service-2 .service-2-desc .title2 {
-    align-items: center;
-    font-size: 6vw;
-    height: 25%;
+  /*SECOND SECTION - PORTFÓLIO*/
+  .App main .second-section .portfolio {
+    /**/flex-direction: column;
+    /**/height: 80vh;
   }
 
-  .App main .second-section .section-my-services .services .service-1 .service-1-desc .desc, .service-2 .service-2-desc .desc {
-    font-size: 3.5vw;
-    height: 20%;
+  .App main .second-section .portfolio .desc-arts {
+    /**/width: 90%;
+    /**/height: 65%;
   }
 
-  .App main .second-section .section-portfolio {
-    width: 90%;
+  .App main .second-section .portfolio .desc-arts .title {
+    /**/justify-content: left;
+    /**/align-items: end;
+    /**/width: 85%;
+    /**/height: 40%;
+    /**/font-size: 15vw;
   }
 
-  .App main .second-section .section-portfolio .section-portfolio-examples .arte-box {
-    width: 47%;
-    height: 400px;
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 14vw;
   }
 
-  .App .portfolio-modal .modal-main {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 14vw;
+    height: 33%;
   }
 
-  .App .portfolio-modal .modal-main .modal-image img {
-    width: 100%;
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    /**/align-items: end;
+    /**/height: 40%;
+    font-size: 15vw;
+    height: 35%;
   }
 
-  .App .portfolio-modal .modal-main .modal-image-desc {
-    width: 100%;
-    font-size: 3.5vw;
-    height: 70%;
-    overflow-y: auto;
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    /*align-items: center;*/
+    /**/width: 85%;
+    /**/height: 60%;
+    /**/font-size: 17.9px;
+    font-size: 3.8vw;
   }
 
-  .App main .third-section {
-    width: 100%;
-    height: 60vw;
+  .App main .second-section .portfolio .arts-examples {
+    /**/width: 90%;
+    /**/height: 35%;
   }
 
-  .App main .third-section .third-section-main {
-    flex-direction: column;
+  .App main .second-section .portfolio .arts-examples .arts-examples-main {
     width: 90%;
     height: 100%;
   }
 
-  .App main .third-section .third-section-main .box1 {
-    width: 100%;
+  .App .portfolio-modal .close-modal {
+    width: 90%;
+    font-weight: 400;
+    font-size: 6vw;
   }
 
-  .App main .third-section .third-section-main .box1 .text2 {
-    align-items: end;
-    width: 100%;
-    height:30%;
-    font-size: 5vw;
+  .App .portfolio-modal .modal-main img {
+    width: 95%;
   }
 
-  .App main .third-section .third-section-main .box2 {
-    width: 100%;
+  /*THIRD SECTION - MY SERVICES*/
+  .App main .third-section {
+    justify-content: space-between;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main {
+  .App main .third-section .services {
+    /**/width: 76%;
+    /**/height: 10%;
+    /**/font-size: 7vw;
+    /**/justify-content: left;
+
+  }
+
+  .App main .third-section .services-main {
+    /**/flex-direction: column;
+    /**/width: 85%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box {
+    /**/width: 100%;
+    /**/border-bottom: 1px solid gray;
+  }
+
+  .App main .third-section .services-main .service-box img {
+    display: none;
+  }
+
+  .App main .third-section .services-main .service-box .service-information {
+    /**/width: 90%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    justify-content: left;
+    font-size: 5.5vw;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 15px;
+    font-size: 3.5vw;
+  }
+
+  /*FOURTH SECTION*/
+  .App main .fourth-section {
+    height: 40vh;
+  }
+
+  .App main .fourth-section .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /**/width: 80%;
+    /**/height: 93%;
+  }
+
+  .App main .fourth-section .contacts-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    /**/height: 20%;
+  }
+
+  .App main .fourth-section .contacts-text .contact-title {
     width: 100%;
     height: 80%;
+    margin: 0;
+    font-family: 'MinhaFonteCentury';
+    font-weight: normal;
+    /**/line-height: 1;
+    /**/font-size: 31.5px;
+    font-size: 8vw;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main:hover {
-    border-left: 6px solid black;
-    border-bottom: 6px solid black;
+  .App main .fourth-section .contacts-text .contact-subtitle {
+    display: none;
   }
 
-  .App main .third-section .third-section-main .box2 .box2-main .contacts .name {
-    font-size: 3.5vw;
+  .App main .fourth-section .contact-box-main {
+    /**/flex-wrap: wrap;
+    /**/align-items: center;
+    /**/height: 50%;
   }
 
-  footer {
-    height: 170px;
-    margin-top: 70px;
+  .App main .fourth-section .contact-box-main .contact-box {
+    /**/width: 29%;
+    /**/height: 80%;
+    /**/border-radius: 20px;
+    /**/border: 3px solid rgb(201, 54, 0);
+    background-color: rgb(201, 54, 0);
   }
 
-  footer .footer-main {
-    width: 70%;
-    height: 55%;
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img {
+    /**/width: 80%;
   }
 
-  footer .footer-main .options {
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img:hover {
+    /**/width: 80%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-name {
+    /**/font-size: 3.2vw;
+    color: white;
+  }
+
+  /*FOOTER*/
+  .footer {
+    /**/height: 20vh;
+  }
+
+  .footer .footer-main {
+    /**/width: 80%;
+  }
+
+  .footer .footer-main .footer-menu {
+    /**/width: 28%;
+    /**/height: 70%;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-title {
+    align-items: start;
+    font-size: 4vw;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-options {
+    align-items: start;
+    font-size: 3vw;
+  }
+
+  .footer .footer-main .footer-rights {
+    /**/width: 30%;
+    /**/height: 50%;
+    /**/font-size: 4vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .App .header .header-main .logo {
+    display: none;
+  }
+
+  .App .header .header-main .menu {
+    justify-content: center;
     width: 100%;
+  }
+
+  .App .header .header-main .menu ul {
+    width: 90%;
+    font-size: 13px;
+    font-size: 2.4vw;
+    padding: 0;
+  }
+
+  .App main .first-section {
+    align-items: start;
+  }
+
+  .App main .first-section .first-section-main {
+    height: 85%;
+  }
+
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 17vw;
+    width: 100%;
+  }
+
+  /*SECOND SECTION - PORTFÓLIO*/
+  .App main .second-section .portfolio {
+    /**/flex-direction: column;
+    /**/height: 80vh;
+    margin-top: 30px;
+  }
+
+  .App main .second-section .portfolio .desc-arts {
+    /**/width: 90%;
+    /**/height: 65%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title {
+    /**/justify-content: left;
+    /**/align-items: end;
+    /**/width: 85%;
+    /**/height: 40%;
+    /**/font-size: 12vw;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 12vw;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 12vw;
+    height: 33%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    /**/align-items: end;
+    /**/height: 40%;
+    font-size: 13vw;
+    height: 35%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    /*align-items: center;*/
+    /**/width: 85%;
+    /**/height: 60%;
+    /**/font-size: 17.9px;
     font-size: 3.5vw;
   }
 
-  footer .footer-main .copyright {
-    font-size: 3.3vw;
+  .App main .second-section .portfolio .arts-examples {
+    /**/width: 90%;
+    /**/height: 35%;
+  }
+
+  .App main .second-section .portfolio .arts-examples .arts-examples-main {
+    width: 90%;
+    height: 100%;
+  }
+
+  .App .portfolio-modal .close-modal {
+    width: 90%;
+    font-weight: 400;
+    font-size: 6vw;
+  }
+
+  .App .portfolio-modal .modal-main img {
+    width: 95%;
+  }
+
+  /*THIRD SECTION - MY SERVICES*/
+  .App main .third-section {
+    justify-content: space-between;
+  }
+
+  .App main .third-section .services {
+    /**/width: 76%;
+    /**/height: 10%;
+    /**/font-size: 7vw;
+    /**/justify-content: left;
+
+  }
+
+  .App main .third-section .services-main {
+    /**/flex-direction: column;
+    /**/width: 85%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box {
+    /**/width: 100%;
+    /**/border-bottom: 1px solid gray;
+  }
+
+  .App main .third-section .services-main .service-box img {
+    display: none;
+  }
+
+  .App main .third-section .services-main .service-box .service-information {
+    /**/width: 90%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    justify-content: left;
+    font-size: 5.2vw;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 15px;
+    font-size: 3.2vw;
+  }
+
+  /*FOURTH SECTION*/
+  .App main .fourth-section {
+    height: 50vh;
+  }
+
+  .App main .fourth-section .contacts {
+    /**/width: 80%;
+    /**/height: 80%;
+  }
+
+  .App main .fourth-section .contacts-text {
+    /**/height: 50%;
+  }
+
+  .App main .fourth-section .contacts-text .contact-title {
+    /**/line-height: 1;
+    /**/font-size: 31.5px;
+    font-size: 8vw;
+  }
+
+  .App main .fourth-section .contacts-text .contact-subtitle {
+    display: none;
+  }
+
+  .App main .fourth-section .contact-box-main {
+    /**/align-items: center;
+    /**/height: 50%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box {
+    /**/width: 30%;
+    /**/height: 80%;
+    /**/border-radius: 20px;
+    /**/border: 3px solid rgb(201, 54, 0);
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img {
+    /**/width: 50%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img:hover {
+    /**/width: 27%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-name {
+    /**/font-size: 3vw;
+    color: white;
+  }
+
+  /*FOOTER*/
+  .footer {
+    /**/height: 20vh;
+  }
+
+  .footer .footer-main {
+    /**/width: 80%;
+    height: 100%;
+  }
+
+  .footer .footer-main .footer-menu {
+    /**/width: 28%;
+    /**/height: 50%;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-title {
+    align-items: start;
+    font-size: 3.4vw;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-options {
+    align-items: start;
+    font-size: 2.5vw;
+  }
+
+  .footer .footer-main .footer-rights {
+    /**/width: 50%;
+    /**/height: 60%;
+    /**/font-size: 4.5vw;
   }
 }
