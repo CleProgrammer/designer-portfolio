@@ -10,8 +10,8 @@ import Img3 from './images/secondsection/img3.jpg'
 import Img4 from './images/secondsection/img4.jpg'
 import Img5 from './images/secondsection/img5.jpg'
 import Img6 from './images/secondsection/img6.jpg'
-import Img7 from './images/secondsection/img7.jpg'
-import Img8 from './images/secondsection/img8.jpg'
+import Img7 from './images/secondsection/img7.png'
+import Img8 from './images/secondsection/img8.png'
 import Img9 from './images/secondsection/img9.jpg'
 import Img10 from './images/secondsection/img10.jpg'
 import Img11 from './images/secondsection/img11.jpg'
@@ -116,14 +116,14 @@ function App() {
           </div>
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
-              <h2 className='title lanche'>lanche</h2>
-              <p className='art-desc'>Artes para lanchonetes, elaboradas por Clebson designer gráfico com foco em cores atrativas para chamar atenção. Artes para redes sociais pensadas para destacar e gerar engajamento no nicho de lanches e lanchonetes.</p>
+              <h2 className='title lanche'>evento</h2>
+              <p className='art-desc'>Artes para eventos, elaboradas por Clebson designer gráfico com foco em cores atrativas para chamar atenção. Artes para redes sociais pensadas para destacar e gerar engajamento no nicho de festas, shows e eventos para estabelecimentos.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img7' src={Img7} alt="Arte para lanchonete com foco em lanches e combos artesanais" onClick={(e) => OpenModal(e)}/>
-                <img id='Img8' src={Img8} alt="Post para lanchonete com hambúrgueres, batatas e promoções destacadas" onClick={(e) => OpenModal(e)}/>
-                <img id='Img9' src={Img9} alt="Design para lanchonete com layout estratégico para redes sociais" onClick={(e) => OpenModal(e)}/>
+                <img id='Img7' src={Img7} alt="Imagem mostra uma arte de um show de Simone Mendes criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
+                <img id='Img8' src={Img8} alt="Imagem mostra uma arte esportiva de Neymar Jr. criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
+                <img id='Img9' src={Img9} alt="Imagem mostra uma arte para um show de Wesley Safadão criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
               </div>
             </div>
           </div>
@@ -155,15 +155,15 @@ function App() {
             <div className='service-box'>
               <img className='service-image' src={Service1} alt="" />
               <div className='service-information'>
-                <h3 className='service-title'>designer gráfico</h3>
-                <p className='service-desc'>A identidade visual fortalece o posicionamento da sua marca e transmite profissionalismo. É por meio dela que seu público reconhece, confia e se conecta com o seu negócio desde o primeiro olhar.</p>
+                <h3 className='service-title'>arte para evento</h3>
+                <p className='service-desc'>Crio artes únicas e chamativas para divulgar shows, festas e promoções, garantindo impacto visual marcante nas redes sociais e ajudando seu evento a alcançar mais público.</p>
               </div>
             </div>
             <div className='service-box'>
               <img className='service-image' src={Service1} alt="" />
               <div className='service-information'>
-                <h3 className='service-title'>edição de vídeo</h3>
-                <p className='service-desc'>Edição de vídeos curtos criativa e profissional, com cortes dinâmicos, trilhas impactantes e foco em transmitir a mensagem da sua marca com clareza e engajamento.</p>
+                <h3 className='service-title'>artes esportivas</h3>
+                <p className='service-desc'>Crio artes dinâmicas e impactantes para eventos e times esportivos, ajudando a destacar marcas, divulgar jogos e engajar torcedores nas redes sociais.</p>
               </div>
             </div>
           </div>

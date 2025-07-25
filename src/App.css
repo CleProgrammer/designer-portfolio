@@ -727,8 +727,233 @@
 
 
 
+@media (min-width: 992px) and (max-width: 1199px) and (orientation: portrait) {
+  .App .header .header-main .logo {
+    display: none;
+  }
+
+  .App .header .header-main .menu {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .App .header .header-main .menu ul {
+    width: 90%;
+    font-size: 13px;
+    font-size: 2.4vw;
+    padding: 0;
+  }
+
+  .App main .first-section {
+    align-items: start;
+  }
+
+  .App main .first-section .first-section-main {
+    height: 85%;
+  }
+
+  .App main .first-section .first-section-main .introduce-me {
+    font-size: 17vw;
+    width: 100%;
+  }
+
+  /*SECOND SECTION - PORTFÓLIO*/
+  .App main .second-section .portfolio {
+    /**/flex-direction: column;
+    /**/height: 80vh;
+    margin-top: 30px;
+  }
+
+  .App main .second-section .portfolio .desc-arts {
+    /**/width: 90%;
+    /**/height: 65%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title {
+    /**/justify-content: left;
+    /**/align-items: end;
+    /**/width: 85%;
+    /**/height: 40%;
+    /**/font-size: 12vw;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.pizza {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 12vw;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.lanche {
+    /**/align-items: end;
+    /**/height: 40%;
+    /**/font-size: 12vw;
+    height: 33%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.bar {
+    /**/align-items: end;
+    /**/height: 40%;
+    font-size: 13vw;
+    height: 35%;
+  }
+
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    /*align-items: center;*/
+    /**/width: 85%;
+    /**/height: 60%;
+    /**/font-size: 17.9px;
+    font-size: 3.5vw;
+  }
+
+  .App main .second-section .portfolio .arts-examples {
+    /**/width: 90%;
+    /**/height: 35%;
+  }
+
+  .App main .second-section .portfolio .arts-examples .arts-examples-main {
+    width: 90%;
+    height: 100%;
+  }
+
+  .App .portfolio-modal .close-modal {
+    width: 90%;
+    font-weight: 400;
+    font-size: 6vw;
+  }
+
+  .App .portfolio-modal .modal-main img {
+    width: 95%;
+  }
+
+  /*THIRD SECTION - MY SERVICES*/
+  .App main .third-section {
+    justify-content: space-between;
+  }
+
+  .App main .third-section .services {
+    /**/width: 76%;
+    /**/height: 10%;
+    /**/font-size: 7vw;
+    /**/justify-content: left;
+
+  }
+
+  .App main .third-section .services-main {
+    /**/flex-direction: column;
+    /**/width: 85%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box {
+    /**/width: 100%;
+    /**/border-bottom: 1px solid gray;
+  }
+
+  .App main .third-section .services-main .service-box img {
+    display: none;
+  }
+
+  .App main .third-section .services-main .service-box .service-information {
+    /**/width: 90%;
+    /**/height: 90%;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-title {
+    justify-content: left;
+    font-size: 5.2vw;
+  }
+
+  .App main .third-section .services-main .service-box .service-information .service-desc {
+    font-size: 15px;
+    font-size: 3.2vw;
+  }
+
+  /*FOURTH SECTION*/
+  .App main .fourth-section {
+    height: 50vh;
+  }
+
+  .App main .fourth-section .contacts {
+    /**/width: 80%;
+    /**/height: 80%;
+  }
+
+  .App main .fourth-section .contacts-text {
+    /**/height: 50%;
+  }
+
+  .App main .fourth-section .contacts-text .contact-title {
+    /**/line-height: 1;
+    /**/font-size: 31.5px;
+    font-size: 8vw;
+  }
+
+  .App main .fourth-section .contacts-text .contact-subtitle {
+    display: none;
+  }
+
+  .App main .fourth-section .contact-box-main {
+    /**/align-items: center;
+    /**/height: 50%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box {
+    /**/width: 30%;
+    /**/height: 80%;
+    /**/border-radius: 20px;
+    /**/border: 3px solid rgb(201, 54, 0);
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img {
+    /**/width: 50%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-image img:hover {
+    /**/width: 27%;
+  }
+
+  .App main .fourth-section .contact-box-main .contact-box .contact-name {
+    /**/font-size: 3vw;
+    color: white;
+  }
+
+  /*FOOTER*/
+  .footer {
+    /**/height: 20vh;
+  }
+
+  .footer .footer-main {
+    /**/width: 80%;
+    height: 100%;
+  }
+
+  .footer .footer-main .footer-menu {
+    /**/width: 28%;
+    /**/height: 50%;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-title {
+    align-items: start;
+    font-size: 3.4vw;
+  }
+
+  .footer .footer-main .footer-menu .footer-menu-options {
+    align-items: start;
+    font-size: 2.5vw;
+  }
+
+  .footer .footer-main .footer-rights {
+    /**/width: 50%;
+    /**/height: 60%;
+    /**/font-size: 4.5vw;
+  }
+}
+
+
+
+
 /*FEITO*/
-@media (min-width: 1024px) and (max-width: 1024px) {
+@media (width: 1024px) and (orientation: landscape) {
   .App .header .header-main .logo {
     width: 14%;
   }
@@ -806,7 +1031,6 @@
   .footer .footer-main .footer-rights {
     font-size: 2.7rem;
   }
-
 }
 
 
@@ -1657,224 +1881,3 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  .App .header .header-main .logo {
-    display: none;
-  }
-
-  .App .header .header-main .menu {
-    justify-content: center;
-    width: 100%;
-  }
-
-  .App .header .header-main .menu ul {
-    width: 90%;
-    font-size: 13px;
-    font-size: 2.4vw;
-    padding: 0;
-  }
-
-  .App main .first-section {
-    align-items: start;
-  }
-
-  .App main .first-section .first-section-main {
-    height: 85%;
-  }
-
-  .App main .first-section .first-section-main .introduce-me {
-    font-size: 17vw;
-    width: 100%;
-  }
-
-  /*SECOND SECTION - PORTFÓLIO*/
-  .App main .second-section .portfolio {
-    /**/flex-direction: column;
-    /**/height: 80vh;
-    margin-top: 30px;
-  }
-
-  .App main .second-section .portfolio .desc-arts {
-    /**/width: 90%;
-    /**/height: 65%;
-  }
-
-  .App main .second-section .portfolio .desc-arts .title {
-    /**/justify-content: left;
-    /**/align-items: end;
-    /**/width: 85%;
-    /**/height: 40%;
-    /**/font-size: 12vw;
-  }
-
-  .App main .second-section .portfolio .desc-arts .title.pizza {
-    /**/align-items: end;
-    /**/height: 40%;
-    /**/font-size: 12vw;
-  }
-
-  .App main .second-section .portfolio .desc-arts .title.lanche {
-    /**/align-items: end;
-    /**/height: 40%;
-    /**/font-size: 12vw;
-    height: 33%;
-  }
-
-  .App main .second-section .portfolio .desc-arts .title.bar {
-    /**/align-items: end;
-    /**/height: 40%;
-    font-size: 13vw;
-    height: 35%;
-  }
-
-  .App main .second-section .portfolio .desc-arts .art-desc {
-    /*align-items: center;*/
-    /**/width: 85%;
-    /**/height: 60%;
-    /**/font-size: 17.9px;
-    font-size: 3.5vw;
-  }
-
-  .App main .second-section .portfolio .arts-examples {
-    /**/width: 90%;
-    /**/height: 35%;
-  }
-
-  .App main .second-section .portfolio .arts-examples .arts-examples-main {
-    width: 90%;
-    height: 100%;
-  }
-
-  .App .portfolio-modal .close-modal {
-    width: 90%;
-    font-weight: 400;
-    font-size: 6vw;
-  }
-
-  .App .portfolio-modal .modal-main img {
-    width: 95%;
-  }
-
-  /*THIRD SECTION - MY SERVICES*/
-  .App main .third-section {
-    justify-content: space-between;
-  }
-
-  .App main .third-section .services {
-    /**/width: 76%;
-    /**/height: 10%;
-    /**/font-size: 7vw;
-    /**/justify-content: left;
-
-  }
-
-  .App main .third-section .services-main {
-    /**/flex-direction: column;
-    /**/width: 85%;
-    /**/height: 90%;
-  }
-
-  .App main .third-section .services-main .service-box {
-    /**/width: 100%;
-    /**/border-bottom: 1px solid gray;
-  }
-
-  .App main .third-section .services-main .service-box img {
-    display: none;
-  }
-
-  .App main .third-section .services-main .service-box .service-information {
-    /**/width: 90%;
-    /**/height: 90%;
-  }
-
-  .App main .third-section .services-main .service-box .service-information .service-title {
-    justify-content: left;
-    font-size: 5.2vw;
-  }
-
-  .App main .third-section .services-main .service-box .service-information .service-desc {
-    font-size: 15px;
-    font-size: 3.2vw;
-  }
-
-  /*FOURTH SECTION*/
-  .App main .fourth-section {
-    height: 50vh;
-  }
-
-  .App main .fourth-section .contacts {
-    /**/width: 80%;
-    /**/height: 80%;
-  }
-
-  .App main .fourth-section .contacts-text {
-    /**/height: 50%;
-  }
-
-  .App main .fourth-section .contacts-text .contact-title {
-    /**/line-height: 1;
-    /**/font-size: 31.5px;
-    font-size: 8vw;
-  }
-
-  .App main .fourth-section .contacts-text .contact-subtitle {
-    display: none;
-  }
-
-  .App main .fourth-section .contact-box-main {
-    /**/align-items: center;
-    /**/height: 50%;
-  }
-
-  .App main .fourth-section .contact-box-main .contact-box {
-    /**/width: 30%;
-    /**/height: 80%;
-    /**/border-radius: 20px;
-    /**/border: 3px solid rgb(201, 54, 0);
-  }
-
-  .App main .fourth-section .contact-box-main .contact-box .contact-image img {
-    /**/width: 50%;
-  }
-
-  .App main .fourth-section .contact-box-main .contact-box .contact-image img:hover {
-    /**/width: 27%;
-  }
-
-  .App main .fourth-section .contact-box-main .contact-box .contact-name {
-    /**/font-size: 3vw;
-    color: white;
-  }
-
-  /*FOOTER*/
-  .footer {
-    /**/height: 20vh;
-  }
-
-  .footer .footer-main {
-    /**/width: 80%;
-    height: 100%;
-  }
-
-  .footer .footer-main .footer-menu {
-    /**/width: 28%;
-    /**/height: 50%;
-  }
-
-  .footer .footer-main .footer-menu .footer-menu-title {
-    align-items: start;
-    font-size: 3.4vw;
-  }
-
-  .footer .footer-main .footer-menu .footer-menu-options {
-    align-items: start;
-    font-size: 2.5vw;
-  }
-
-  .footer .footer-main .footer-rights {
-    /**/width: 50%;
-    /**/height: 60%;
-    /**/font-size: 4.5vw;
-  }
-}
