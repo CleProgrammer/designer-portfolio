@@ -121,7 +121,7 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img7' src={Img7} alt="Imagem mostra uma arte de um show de Simone Mendes criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
+                <img id='Img7' src={Img7} alt="Imagem mostra um flyer de um show de Gusttavo Lima criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
                 <img id='Img8' src={Img8} alt="Imagem mostra uma arte esportiva de Neymar Jr. criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
                 <img id='Img9' src={Img9} alt="Imagem mostra uma arte para um show de Wesley Safadão criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
               </div>
