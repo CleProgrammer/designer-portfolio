@@ -12,7 +12,7 @@ import Img5 from './images/secondsection/img5.jpg'
 import Img6 from './images/secondsection/img6.jpg'
 import Img7 from './images/secondsection/img7.png'
 import Img8 from './images/secondsection/img8.png'
-import Img9 from './images/secondsection/img9.jpg'
+import Img9 from './images/secondsection/img9.png'
 import Img10 from './images/secondsection/img10.jpg'
 import Img11 from './images/secondsection/img11.jpg'
 import Img12 from './images/secondsection/img12.jpg'
@@ -94,9 +94,9 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img1' src={Img1} alt="Arte de açaí para social media com visual atrativo" onClick={(e) => OpenModal(e)} />
-                <img id='Img2' src={Img2} alt="Post criativo para açaíteria com elementos tropicais e identidade visual vibrante" onClick={(e) => OpenModal(e)}/>
-                <img id='Img3' src={Img3} alt="Design para açaíteria com foco em engajamento e apelo visual" onClick={(e) => OpenModal(e)}/>
+                <img id='Img1' src={Img1} alt="Arte de açaí criada por Clebson Designer Gráfico Freelancer para social media com visual atrativo" onClick={(e) => OpenModal(e)} />
+                <img id='Img2' src={Img2} alt="Post criativo criado por Clebson Designer Gráfico Freelancer para social media para açaíteria com elementos tropicais e identidade visual vibrante" onClick={(e) => OpenModal(e)}/>
+                <img id='Img3' src={Img3} alt="Design criado por Clebson Designer Gráfico Freelancer para social media para açaíteria com foco em engajamento e apelo visual" onClick={(e) => OpenModal(e)}/>
               </div>
             </div>
           </div>
@@ -108,9 +108,9 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img4' src={Img4} alt="Arte para pizzaria com destaque para sabores e visual apetitoso da pizza" onClick={(e) => OpenModal(e)}/>
-                <img id='Img5' src={Img5} alt="Post para pizzaria com cores quentes e identidade visual da marca" onClick={(e) => OpenModal(e)}/>
-                <img id='Img6' src={Img6} alt="Design para pizzaria promovendo cardápio e promoções nas redes sociais" onClick={(e) => OpenModal(e)}/>
+                <img id='Img4' src={Img4} alt="Arte para pizzaria criada por Clebson Designer Gráfico Freelancer para social media com destaque para sabores e visual apetitoso da pizza" onClick={(e) => OpenModal(e)}/>
+                <img id='Img5' src={Img5} alt="Post para pizzaria criado por Clebson Designer Gráfico Freelancer para social media com cores quentes e identidade visual da marca" onClick={(e) => OpenModal(e)}/>
+                <img id='Img6' src={Img6} alt="Design criado por Clebson Designer Gráfico Freelancer para social media para pizzaria promovendo cardápio e promoções nas redes sociais" onClick={(e) => OpenModal(e)}/>
               </div>
             </div>
           </div>
@@ -121,9 +121,9 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img7' src={Img7} alt="Imagem mostra um flyer de um show ou evento sertanejo com Gusttavo Lima, Leonardo e Gustavo Mioto criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
-                <img id='Img8' src={Img8} alt="Imagem mostra uma arte esportiva de Neymar Jr. criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
-                <img id='Img9' src={Img9} alt="Imagem mostra uma arte para um show de Wesley Safadão criada por Clebson designer gráfico e social media" onClick={(e) => OpenModal(e)}/>
+                <img id='Img7' src={Img7} alt="Imagem mostra um flyer de um show ou evento sertanejo com Gusttavo Lima, Leonardo e Gustavo Mioto criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
+                <img id='Img8' src={Img8} alt="Imagem mostra uma arte esportiva de Neymar Jr. criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
+                <img id='Img9' src={Img9} alt="Imagem mostra uma arte para um show de Gusttavo Lima criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
               </div>
             </div>
           </div>

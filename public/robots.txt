@@ -3,4 +3,4 @@ User-agent: *
 Disallow:
 
 # Caminho do sitemap
-Sitemap: https://cleprogrammer.github.io/designer-portfolio/sitemap.xml
+Sitemap: https://clebsondesigner.com.br/sitemap.xml
