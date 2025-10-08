@@ -20,7 +20,7 @@
   },
   "homepage": "https://clebsondesigner.com.br/",
   "scripts": {
-    "predeploy": "npm run build && cp CNAME build/CNAME",
+    "predeploy": "npm run build && copy CNAME build\\CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
