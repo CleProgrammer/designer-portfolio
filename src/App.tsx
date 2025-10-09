@@ -71,10 +71,25 @@ function App() {
           </div>
           <nav className='menu'>
             <ul>
-              <a href='#services-section' id='services' rel="noopener noreferrer"><li className='serviços-li'>SERVIÇOS</li></a>
-              <a href='#portfolio' rel="noopener noreferrer"><li className='portfolio-li'>PORTFÓLIO</li></a>
+              <a href='#serviços' id='services' rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("serviços")?.scrollIntoView({ behavior: "smooth" });
+                }}
+              ><li className='serviços-li'>SERVIÇOS</li></a>
+              <a href='#portfolio' rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("portfolio")?.scrollIntoView({ behavior: "smooth" });
+                }}
+              ><li className='portfolio-li'>PORTFÓLIO</li></a>
               <a href='https://www.instagram.com/clebsondesignergrafico/' target='_blank' rel="noopener noreferrer"><li className='instagram-li'>INSTAGRAM</li></a>
-              <a href='#contatos' rel="noopener noreferrer"><li className='contatos-li'>CONTATO</li></a>
+              <a href='#contatos' rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("contatos")?.scrollIntoView({ behavior: "smooth" });
+                }}
+              ><li className='contatos-li'>CONTATO</li></a>
             </ul>
           </nav>
         </div>
@@ -142,7 +157,7 @@ function App() {
           </div>
         </section>
 
-        <section className='third-section' id='services-section'>
+        <section className='third-section' id='serviços'>
           <h2 className='services' data-aos="fade-up" data-aos-duration="1000">meus serviços</h2>
           <div className='services-main' data-aos="fade-up" data-aos-duration="1000">
             <div className='service-box'>
@@ -197,9 +212,24 @@ function App() {
           <div className='footer-menu'>
             <div className='footer-menu-title'>mapa</div>
             <div className='footer-menu-options'>
-              <a href='#home'>início</a>
-              <a href='#portfolio'>portfólio</a>
-              <a href='#services-section'>serviços</a>
+              <a href='#home'
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("home")?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >início</a>
+              <a href='#portfolio'
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("portfolio")?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >portfólio</a>
+              <a href='#serviços'
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("serviços")?.scrollIntoView({ behavior: "smooth" });
+                }}
+              >serviços</a>
             </div>
           </div>
           <div className='footer-menu'>
