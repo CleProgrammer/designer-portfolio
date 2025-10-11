@@ -66,6 +66,7 @@
   height: 100%;
   color: rgb(165, 165, 165);
   font-size: 14px;
+  font-size: 1.025vw;
   font-family: "MinhaFonte";
 }
 
@@ -402,6 +403,7 @@
   justify-content: space-between;
   width: 100%;
   height: 35%;
+  
 }
 
 .App main .fourth-section .contacts-text .contact-title {
@@ -412,6 +414,7 @@
   font-weight: normal;
   line-height: 1;
   font-size: 56.7px;
+  font-size: 4.15vw;
   color: rgb(184, 184, 184);
 }
 
@@ -420,7 +423,7 @@
   height: 12%;
   margin: 0;
   font-size: 20.8px;
-  
+  font-size: 1.523vw;
   font-family: 'MinhaFonteCentury';
   opacity: 90%;
   color: orangered;
@@ -575,6 +578,7 @@
 
   .App .header .header-main .logo a {
     font-size: 21px;
+    font-size: 1.1vw;
   }
 
   .App .header .header-main .menu ul {
@@ -633,11 +637,13 @@
 
   .App main .fourth-section .contacts .contacts-text .contact-title {
     font-size: 79.7px;
+    font-size: 4.151vw;
     height: 75%;
   }
 
   .App main .fourth-section .contacts .contacts-text .contact-subtitle {
     font-size: 29.2px;
+    font-size: 1.52vw;
     height: 16%;
   }
 
@@ -693,6 +699,7 @@
 
   .App .header .header-main .logo a {
     font-size: 14px;
+    font-size: 1.1vw;;
   }
 
   .App main .first-section {
@@ -713,11 +720,13 @@
 
   .App main .fourth-section .contacts .contacts-text .contact-title {
     font-size: 50px;
+    font-size: 4.15vw;
   }
 
   .App main .fourth-section .contacts .contacts-text .contact-subtitle {
     height: 15%;
     font-size: 19.4px;
+    font-size: 1.52vw;
   }
 
   .App .footer .footer-main .footer-rights {
@@ -997,11 +1006,13 @@
 
   .App main .fourth-section .contacts-text .contact-title {
     font-size: 49.5px;
+    font-size: 4.84vw;
   }
 
   .App main .fourth-section .contacts-text .contact-subtitle {
     height: 17%;
     font-size: 18.1px;
+    font-size: 1.77vw;
   }
 
   .App main .fourth-section .contact-box-main .contact-box .contact-name {
@@ -1121,6 +1132,7 @@
 
   .App .header .header-main .logo a {
     font-size: 15px;
+    font-size: 1.05vw;
   }
 
   .App .header .header-main .menu ul {
@@ -1149,11 +1161,13 @@
 
   .App main .fourth-section .contacts-text .contact-title {
     font-size: 59.7px;
+    font-size: 4.1513vw;
   }
 
   .App main .fourth-section .contacts-text .contact-subtitle {
     height: 20%;
     font-size: 21.9px;
+    font-size: 1.52vw;
   }
 
   .App .footer .footer-main .footer-rights {
@@ -1171,6 +1185,7 @@
 
   .App .header .header-main .logo a {
     font-size: 17px;
+    font-size: 1.15vw;
   }
 
   .App .header .header-main .menu ul {
@@ -1215,11 +1230,13 @@
 
   .App main .fourth-section .contacts-text .contact-title {
     font-size: 66.4px;
+    font-size: 4.15vw;
   }
 
   .App main .fourth-section .contacts-text .contact-subtitle {
     height: 18%;
     font-size: 24.3px;
+    font-size: 1.52vw;
   }
 
   .App main .fourth-section .contact-box-main .contact-box .contact-name {
@@ -1228,6 +1245,7 @@
 
   .App .footer .footer-main .footer-rights {
     font-size: 62px;
+    font-size: 3.8vw;
   }
 }
 
@@ -1240,6 +1258,7 @@
 
   .App .header .header-main .logo a {
     font-size: 27px;
+    font-size: 1.05vw;
   }
 
   .App .header .header-main .menu ul {
@@ -1284,11 +1303,13 @@
 
   .App main .fourth-section .contacts .contacts-text .contact-title {
     font-size: 106.2px;
+    font-size: 4.151vw;
   }
 
   .App main .fourth-section .contacts .contacts-text .contact-subtitle {
     height: 18%;
     font-size: 38.9px;
+    font-size: 1.52vw;
   }
 
   .App main .fourth-section .contacts .contact-box-main .contact-box .contact-name {
@@ -1318,6 +1339,7 @@
 
   .App .header .header-main .logo a {
     font-size: 40px;
+    font-size: 1.05vw;
   }
 
   .App .header .header-main .menu ul {
@@ -1371,11 +1393,13 @@
 
   .App main .fourth-section .contacts .contacts-text .contact-title {
     font-size: 159.4px;
+    font-size: 4.151vw;
   }
 
   .App main .fourth-section .contacts .contacts-text .contact-subtitle {
     height: 18%;
     font-size: 58.4px;
+    font-size: 1.52vw;
   }
 
   .App main .fourth-section .contacts .contact-box-main .contact-box {
