@@ -199,7 +199,7 @@ function App() {
                 <div className='contact-image'><img src={InstagramContact} alt="" /></div>
                 <div className='contact-name'>instagram</div>
               </a>
-              <a className='contact-box' href='mailto:clebsondev@hotmail.com?subject=Orçamento&body=Olá Clebson, gostaria de um orçamento...' target='_blank'>
+              <a className='contact-box' href='mailto:clebsondesigner0@gmail.com?subject=Orçamento&body=Olá Clebson, gostaria de um orçamento...' target='_blank'>
                 <div className='contact-image'><img src={EmailContact} alt="" /></div>
                 <div className='contact-name'>via email</div>
               </a>
@@ -237,7 +237,7 @@ function App() {
             <div className='footer-menu-options'>
               <a href='https://wa.link/5ue7ip' target='_blank'>whatsapp</a>
               <a href='https://www.instagram.com/clebsondesignergrafico/' target='_blank'>instagram</a>
-              <a href='mailto:clebson@email.com?subject=Orçamento&body=Olá Clebson, gostaria de um orçamento...' target='_blank'>via email</a>
+              <a href='mailto:clebsondesigner0@gmail.com?subject=Orçamento&body=Olá Clebson, gostaria de um orçamento...' target='_blank'>via email</a>
             </div>
           </div>
           <div className='footer-rights'>website criado por Clebson Designer</div>
