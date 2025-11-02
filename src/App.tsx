@@ -33,6 +33,98 @@ function App() {
                   [Img6, 'Img6'], [Img7, 'Img7'], [Img8, 'Img8'], [Img9, 'Img9'], [Img10, 'Img10'],
                   [Img11, 'Img11'], [Img12, 'Img12']]
 
+  /*const openInstagram = () => {
+    const app = "instagram://user?username=clebsondesignergrafico";
+    const web = "https://www.instagram.com/clebsondesignergrafico/";
+
+    window.location.href = app;
+
+    setTimeout(() => {
+      window.location.href = web;
+    }, 400);
+  };*/
+
+
+  const openInstagram = () => {
+    const username = "clebsondesignergrafico";
+    const appUrl = `instagram://user?username=${username}`;
+    const webUrl = `https://www.instagram.com/${username}/`;
+
+    const isAndroid = /Android/i.test(navigator.userAgent);
+    const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isAndroid) {
+      // Android: usa intent para abrir o app
+      const intentUrl = `intent://instagram.com/_u/${username}/#Intent;package=com.instagram.android;scheme=https;end`;
+      window.location.href = intentUrl;
+    } else if (isIOS) {
+      // iOS: tenta abrir o app e fallback para web se não abrir
+      let appOpened = false;
+
+      const onVisibilityChange = () => {
+        if (document.hidden) appOpened = true;
+      };
+      document.addEventListener("visibilitychange", onVisibilityChange);
+
+      window.location.href = appUrl;
+
+      setTimeout(() => {
+        if (!appOpened) window.location.href = webUrl;
+        document.removeEventListener("visibilitychange", onVisibilityChange);
+      }, 1200);
+    } else {
+      // Desktop: abre em nova aba
+      window.open(webUrl, "_blank");
+    }
+  };
+
+
+  /*const openWhatsApp = () => {
+  const phone = "5575998009769"; // Seu número com código do país
+  const appUrl = `whatsapp://send?phone=${phone}`; // App do WhatsApp
+  const webUrl = `https://wa.me/${phone}`;         // WhatsApp Web
+
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    let appOpened = false;
+
+    const onVisibilityChange = () => {
+      if (document.hidden) appOpened = true;
+    };
+    document.addEventListener("visibilitychange", onVisibilityChange);
+
+    window.location.href = appUrl;
+
+    setTimeout(() => {
+      if (!appOpened) window.location.href = webUrl;
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+    }, 1200);
+
+  } else {
+    window.open(webUrl, "_blank");
+  }
+};*/
+
+  const openWhatsApp = () => {
+    const phone = "5575998009769";
+    const appUrl = `whatsapp://send?phone=${phone}`;
+    const webUrl = `https://wa.me/${phone}`;
+
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    if (isMobile) {
+      // Tenta abrir o app
+      window.location.href = appUrl;
+
+      // Caso o app não esteja instalado, o usuário pode clicar manualmente no link:
+      // webUrl
+    } else {
+      // Desktop: abre WhatsApp Web
+      window.open(webUrl, "_blank");
+    }
+  };
+
   const OpenModal = (e:any):void => {
     if( c('.App .portfolio-modal') ) {
       if(c('.App .portfolio-modal').id === 'open') {
@@ -83,7 +175,7 @@ function App() {
                   document.getElementById("portfolio")?.scrollIntoView({ behavior: "smooth" });
                 }}
               ><li className='portfolio-li'>PORTFÓLIO</li></a>
-              <a href='https://www.instagram.com/clebsondesignergrafico/' target='_blank' rel="noopener noreferrer"><li className='instagram-li'>INSTAGRAM</li></a>
+              <a onClick={openInstagram} target='_blank' rel="noopener noreferrer"><li className='instagram-li'>INSTAGRAM</li></a>
               <a href='#contatos' rel="noopener noreferrer"
                 onClick={(e) => {
                   e.preventDefault();
@@ -191,11 +283,11 @@ function App() {
               <p className='contact-subtitle'>conte comigo para transformar sua ideia em um projeto visual forte e profissional</p>
             </div>
             <div className='contact-box-main' data-aos="fade-up" data-aos-duration="1000">
-              <a className='contact-box' href='https://wa.link/5ue7ip' target='_blank'>
+              <a className='contact-box' onClick={openWhatsApp} target='_blank'>
                 <div className='contact-image'><img src={WhatsAppContact} alt="" /></div>
                 <div className='contact-name'>whatsapp</div>
               </a>
-              <a className='contact-box' href='https://www.instagram.com/clebsondesignergrafico/' target='_blank'>
+              <a className='contact-box' onClick={openInstagram} target='_blank'>
                 <div className='contact-image'><img src={InstagramContact} alt="" /></div>
                 <div className='contact-name'>instagram</div>
               </a>
@@ -235,8 +327,8 @@ function App() {
           <div className='footer-menu'>
             <div className='footer-menu-title'>contato</div>
             <div className='footer-menu-options'>
-              <a href='https://wa.link/5ue7ip' target='_blank'>whatsapp</a>
-              <a href='https://www.instagram.com/clebsondesignergrafico/' target='_blank'>instagram</a>
+              <a onClick={openWhatsApp} target='_blank' style={{cursor: "pointer"}}>whatsapp</a>
+              <a onClick={openInstagram} target='_blank' style={{cursor: "pointer"}}>instagram</a>
               <a href='mailto:clebsondesigner0@gmail.com?subject=Orçamento&body=Olá Clebson, gostaria de um orçamento...' target='_blank'>via email</a>
             </div>
           </div>
