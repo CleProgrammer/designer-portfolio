@@ -201,7 +201,7 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img1' src={Img1} alt="Arte de açaí criada por Clebson Designer Gráfico Freelancer para social media com visual atrativo" onClick={(e) => OpenModal(e)} />
+                <img id='Img1' src={Img1} alt="Arte de açaí criada por Clebson Designer Gráfico Freelancer e social media com visual atrativo" onClick={(e) => OpenModal(e)} />
                 <img id='Img2' src={Img2} alt="Post criativo criado por Clebson Designer Gráfico Freelancer para social media para açaíteria com elementos tropicais e identidade visual vibrante" onClick={(e) => OpenModal(e)}/>
                 <img id='Img3' src={Img3} alt="Design criado por Clebson Designer Gráfico Freelancer para social media para açaíteria com foco em engajamento e apelo visual" onClick={(e) => OpenModal(e)}/>
               </div>
