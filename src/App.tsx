@@ -175,7 +175,7 @@ function App() {
                   document.getElementById("portfolio")?.scrollIntoView({ behavior: "smooth" });
                 }}
               ><li className='portfolio-li'>PORTFÓLIO</li></a>
-              <a onClick={openInstagram} target='_blank' rel="noopener noreferrer"><li className='instagram-li'>INSTAGRAM</li></a>
+              <a href='https://www.instagram.com/clebsondesignergrafico/' onClick={openInstagram} target='_blank' rel="noopener noreferrer"><li className='instagram-li'>INSTAGRAM</li></a>
               <a href='#contatos' rel="noopener noreferrer"
                 onClick={(e) => {
                   e.preventDefault();
@@ -283,11 +283,11 @@ function App() {
               <p className='contact-subtitle'>conte comigo para transformar sua ideia em um projeto visual forte e profissional</p>
             </div>
             <div className='contact-box-main' data-aos="fade-up" data-aos-duration="1000">
-              <a className='contact-box' onClick={openWhatsApp} target='_blank'>
+              <a className='contact-box' href='https://wa.me/5575998009769' onClick={openWhatsApp} target='_blank'>
                 <div className='contact-image'><img src={WhatsAppContact} alt="" /></div>
                 <div className='contact-name'>whatsapp</div>
               </a>
-              <a className='contact-box' onClick={openInstagram} target='_blank'>
+              <a className='contact-box' href='https://www.instagram.com/clebsondesignergrafico/' onClick={openInstagram} target='_blank'>
                 <div className='contact-image'><img src={InstagramContact} alt="" /></div>
                 <div className='contact-name'>instagram</div>
               </a>
@@ -327,8 +327,8 @@ function App() {
           <div className='footer-menu'>
             <div className='footer-menu-title'>contato</div>
             <div className='footer-menu-options'>
-              <a onClick={openWhatsApp} target='_blank' style={{cursor: "pointer"}}>whatsapp</a>
-              <a onClick={openInstagram} target='_blank' style={{cursor: "pointer"}}>instagram</a>
+              <a href='https://wa.me/5575998009769' onClick={openWhatsApp} target='_blank' style={{cursor: "pointer"}}>whatsapp</a>
+              <a href='https://www.instagram.com/clebsondesignergrafico/' onClick={openInstagram} target='_blank' style={{cursor: "pointer"}}>instagram</a>
               <a href='mailto:clebsondesigner0@gmail.com?subject=Orçamento&body=Olá Clebson, gostaria de um orçamento...' target='_blank'>via email</a>
             </div>
           </div>
