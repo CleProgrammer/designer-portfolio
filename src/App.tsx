@@ -3,6 +3,10 @@ import { useEffect } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+
+/*IMAGEM BOTÃO WHATSAPP*/
+import WhatsappIcon from './images/whatsappbutton/WhatsApp.svg.png'
+
 /*IMAGENS PORTFÓLIO*/
 import Img1 from './images/secondsection/img1.jpg'
 import Img2 from './images/secondsection/img2.jpg'
@@ -156,6 +160,12 @@ function App() {
           <img src="" alt="imagem de arte para mídias sociais criadas por Clebson designer gráfico social media" />
         </div>
       </div>
+
+      <a className='whatsapp-button' href='https://wa.me/5575998009769' onClick={openWhatsApp} target='_blank'>
+        <img src={WhatsappIcon} alt="" />
+      </a>
+    
+
       <header className='header' id='home'>
         <div className='header-main'>
           <div className='logo'>

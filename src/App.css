@@ -33,6 +33,16 @@
   /*font-family: 'MinhaFonte';*/
 }
 
+.App .whatsapp-button {
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  width: 4.5svw;
+  height: 4.5svw;
+  bottom: 20px;
+  right: 20px;
+}
+
 /*HEADER*/
 .App .header {
   display: flex;
@@ -1428,6 +1438,16 @@
 
 /*mobile*/
 @media (max-width: 480px) {
+  .App .whatsapp-button {
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    width: 11svw;
+    height: 11svw;
+    bottom: 15px;
+    right: 15px;
+  }
+
   .App .header .header-main .logo {
     display: none;
   }
@@ -1671,6 +1691,16 @@
 
 /*Small tablets*/
 @media (min-width: 768px) and (max-width: 991px) {
+  .App .whatsapp-button {
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    width: 11svw;
+    height: 11svw;
+    bottom: 15px;
+    right: 15px;
+  }
+
   .App .header .header-main .logo {
     display: none;
   }
