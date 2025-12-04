@@ -165,8 +165,8 @@ function App() {
         </div>
       </div>
 
-      <a className='whatsapp-button' href='https://wa.me/5575998009769' onClick={openWhatsApp} rel="noopener noreferrer">
-        <img src={WhatsappIcon} alt="" />
+      <a className='whatsapp-button' href='https://wa.me/5575998009769' onClick={openWhatsApp} rel="noopener noreferrer" aria-label="Contato pelo WhatsApp">
+        <img src={WhatsappIcon} alt="WhatsApp" />
       </a>
     
 
