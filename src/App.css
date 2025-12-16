@@ -273,7 +273,7 @@
   z-index: 99;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.96);
+  background: rgba(245, 245, 245, 0.94);
   backdrop-filter: blur(10px);
   display: none;
 }
@@ -285,7 +285,7 @@
   text-align: center;
   width: 93%;
   height: 10%;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 600;
   font-size: 30px;
 }
