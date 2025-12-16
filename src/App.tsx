@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -152,6 +152,8 @@ function App() {
     }
   }*/
 
+
+  const modalInHistory = useRef(false);
   const OpenModal = (e: any): void => {
     const modal = c('.App .portfolio-modal');
 
@@ -165,7 +167,10 @@ function App() {
           modal.id = 'close';
 
           // 🔹 ADICIONA UM ESTADO NO HISTÓRICO
-          window.history.pushState({ modal: true }, '');
+          if (!modalInHistory.current) {
+            window.history.pushState({ modal: true }, '');
+            modalInHistory.current = true;
+          }
         }
       });
     } else {
@@ -174,14 +179,19 @@ function App() {
   };
 
   const closeModal = () => {
-    const modal = c('.App .portfolio-modal');
+    const modal = document.querySelector('.portfolio-modal') as HTMLElement;
     if (!modal) return;
 
     modal.style.display = 'none';
     modal.id = 'open';
-  };
 
+    if (modalInHistory.current) {
+      modalInHistory.current = false;
 
+      // 🔥 REMOVE o estado do histórico corretamente
+      window.history.back();
+    };
+  }
 
 
 
@@ -189,7 +199,7 @@ function App() {
     AOS.init({})
 
     const handlePopState = () => {
-      const modal = document.querySelector('.portfolio-modal');
+      const modal = document.querySelector('.portfolio-modal') as HTMLElement;
 
       if (modal && modal.id === 'close') {
         closeModal();
@@ -197,10 +207,7 @@ function App() {
     };
 
     window.addEventListener('popstate', handlePopState);
-
-    return () => {
-      window.removeEventListener('popstate', handlePopState);
-    };
+    return () => window.removeEventListener('popstate', handlePopState);
   }, [])
 
   return (
