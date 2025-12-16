@@ -133,7 +133,7 @@ function App() {
     }
   };
 
-  const OpenModal = (e:any):void => {
+  /*const OpenModal = (e:any):void => {
     if( c('.App .portfolio-modal') ) {
       if(c('.App .portfolio-modal').id === 'open') {
         
@@ -150,16 +150,63 @@ function App() {
         c('.App .portfolio-modal').id = 'open'
       }
     }
-  }
+  }*/
+
+  const OpenModal = (e: any): void => {
+    const modal = c('.App .portfolio-modal');
+
+    if (!modal) return;
+
+    if (modal.id === 'open') {
+      imagesBox.forEach((item) => {
+        if (e.target.id === item[1]) {
+          c('.App .portfolio-modal .modal-main img').src = item[0];
+          modal.style.display = 'flex';
+          modal.id = 'close';
+
+          // 🔹 ADICIONA UM ESTADO NO HISTÓRICO
+          window.history.pushState({ modal: true }, '');
+        }
+      });
+    } else {
+      closeModal();
+    }
+  };
+
+  const closeModal = () => {
+    const modal = c('.App .portfolio-modal');
+    if (!modal) return;
+
+    modal.style.display = 'none';
+    modal.id = 'open';
+  };
+
+
+
+
 
   useEffect(() => {
     AOS.init({})
+
+    const handlePopState = () => {
+      const modal = document.querySelector('.portfolio-modal');
+
+      if (modal && modal.id === 'close') {
+        closeModal();
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
   }, [])
 
   return (
     <div className="App">
       <div className='portfolio-modal' id='open'>
-        <div className='close-modal'><div onClick={(e) => OpenModal(e)}>X</div></div>
+        <div className='close-modal'><div onClick={closeModal}>X</div></div>
         <div className='modal-main'>
           <img src="" alt="imagem de arte para mídias sociais criadas por Clebson designer gráfico social media" />
         </div>
