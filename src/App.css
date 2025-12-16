@@ -25,6 +25,10 @@
   font-style: normal;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -252,15 +256,27 @@
   border-bottom: 1px solid rgb(165, 165, 165);
 }
 
-.App main .second-section .portfolio .arts-examples .arts-examples-main img {
+.App main .second-section .portfolio .arts-examples .arts-examples-main .portfolio-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   width: 29%;
-  border-radius: 15px;
-  transition: all ease 1s;
+  height: 65%;
+  font-size: 1.2svw;
+  font-family: 'MinhaFonteCentury';
+  font-weight: normal;
+  cursor: pointer;
 }
 
-.App main .second-section .portfolio .arts-examples .arts-examples-main img:hover {
-  width: 33%;
-  cursor: pointer;
+
+.App main .second-section .portfolio .arts-examples .arts-examples-main .portfolio-item img {
+  width: 95%;
+  border-radius: 15px;
+}
+
+.App main .second-section .portfolio .arts-examples .arts-examples-main .portfolio-item .open-hint:hover {
+  color: rgb(87, 87, 87);
 }
 
 
@@ -998,6 +1014,18 @@
     font-size: 16px;
   }
 
+  .App main .second-section .portfolio .desc-arts .art-desc {
+    font-size: 16px;
+  }
+
+  
+  .App main .second-section .portfolio .arts-examples .arts-examples-main .portfolio-item {
+    width: 29%;
+    height: 50%;
+    font-size: 1.4svw;
+  }
+
+
   .App .portfolio-modal .modal-main img {
     width: 45%;
   }
@@ -1532,8 +1560,23 @@
   }
 
   .App main .second-section .portfolio .arts-examples .arts-examples-main {
+    height: 93%;
+  }
+
+
+  .App main .second-section .portfolio .arts-examples .portfolio-item {
+    height: 100%;
+  }
+
+  .App main .second-section .portfolio .arts-examples .portfolio-item .open-hint {
+    font-size: 2.4svw;
+  }
+
+  .App main .second-section .portfolio .arts-examples .arts-examples-main {
     width: 90%;
   }
+
+  
 
   .App .portfolio-modal .close-modal {
     width: 90%;

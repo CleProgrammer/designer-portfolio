@@ -273,9 +273,35 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img1' src={Img1} alt="Arte de açaí criada por Clebson Designer Gráfico Freelancer e social media com visual atrativo" onClick={(e) => OpenModal(e)} />
+                
+                <div className="portfolio-item" id="Img1" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img1"
+                    src={Img1}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img1">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img2" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img2"
+                    src={Img2}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img2">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img3" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img3"
+                    src={Img3}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img3">Clique para abrir</div>
+                </div>
+
+                {/*<img id='Img1' src={Img1} alt="Arte de açaí criada por Clebson Designer Gráfico Freelancer e social media com visual atrativo" onClick={(e) => OpenModal(e)} />
                 <img id='Img2' src={Img2} alt="Post criativo criado por Clebson Designer Gráfico Freelancer para social media para açaíteria com elementos tropicais e identidade visual vibrante" onClick={(e) => OpenModal(e)}/>
-                <img id='Img3' src={Img3} alt="Design criado por Clebson Designer Gráfico Freelancer para social media para açaíteria com foco em engajamento e apelo visual" onClick={(e) => OpenModal(e)}/>
+                <img id='Img3' src={Img3} alt="Design criado por Clebson Designer Gráfico Freelancer para social media para açaíteria com foco em engajamento e apelo visual" onClick={(e) => OpenModal(e)}/>*/}
               </div>
             </div>
           </div>
@@ -287,9 +313,34 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img4' src={Img4} alt="Arte para pizzaria criada por Clebson Designer Gráfico Freelancer para social media com destaque para sabores e visual apetitoso da pizza" onClick={(e) => OpenModal(e)}/>
+                <div className="portfolio-item" id="Img4" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img4"
+                    src={Img4}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img4">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img5" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img5"
+                    src={Img5}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img5">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img6" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img6"
+                    src={Img6}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img6">Clique para abrir</div>
+                </div>
+
+                {/*<img id='Img4' src={Img4} alt="Arte para pizzaria criada por Clebson Designer Gráfico Freelancer para social media com destaque para sabores e visual apetitoso da pizza" onClick={(e) => OpenModal(e)}/>
                 <img id='Img5' src={Img5} alt="Post para pizzaria criado por Clebson Designer Gráfico Freelancer para social media com cores quentes e identidade visual da marca" onClick={(e) => OpenModal(e)}/>
-                <img id='Img6' src={Img6} alt="Design criado por Clebson Designer Gráfico Freelancer para social media para pizzaria promovendo cardápio e promoções nas redes sociais" onClick={(e) => OpenModal(e)}/>
+                <img id='Img6' src={Img6} alt="Design criado por Clebson Designer Gráfico Freelancer para social media para pizzaria promovendo cardápio e promoções nas redes sociais" onClick={(e) => OpenModal(e)}/>*/}
               </div>
             </div>
           </div>
@@ -300,9 +351,34 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img7' src={Img7} alt="Imagem mostra um flyer de um show ou evento sertanejo com Gusttavo Lima, Leonardo e Gustavo Mioto criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
+
+                <div className="portfolio-item" id="Img7" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img7"
+                    src={Img7}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img7">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img8" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img8"
+                    src={Img8}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img8">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img9" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img9"
+                    src={Img9}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img9">Clique para abrir</div>
+                </div>
+                {/*<img id='Img7' src={Img7} alt="Imagem mostra um flyer de um show ou evento sertanejo com Gusttavo Lima, Leonardo e Gustavo Mioto criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
                 <img id='Img8' src={Img8} alt="Imagem mostra uma arte esportiva de Neymar Jr. criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
-                <img id='Img9' src={Img9} alt="Imagem mostra uma arte para um show de Gusttavo Lima criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
+                <img id='Img9' src={Img9} alt="Imagem mostra uma arte para um show de Gusttavo Lima criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>*/}
               </div>
             </div>
           </div>
@@ -313,9 +389,34 @@ function App() {
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
-                <img id='Img10' src={Img10} alt="Arte para bar com drinks e clima descontraído" onClick={(e) => OpenModal(e)}/>
+
+                <div className="portfolio-item" id="Img10" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img10"
+                    src={Img10}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img10">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img11" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img11"
+                    src={Img11}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img11">Clique para abrir</div>
+                </div>
+                <div className="portfolio-item" id="Img12" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img12"
+                    src={Img12}
+                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                  />
+                  <div className="open-hint" id="Img12">Clique para abrir</div>
+                </div>
+                {/*<img id='Img10' src={Img10} alt="Arte para bar com drinks e clima descontraído" onClick={(e) => OpenModal(e)}/>
                 <img id='Img11' src={Img11} alt="Post para redes sociais de bar com promoções e identidade visual vibrante" onClick={(e) => OpenModal(e)}/>
-                <img id='Img12' src={Img12} alt="Design para bar ou cervejaria com foco em engajamento no Instagram" onClick={(e) => OpenModal(e)}/>
+                <img id='Img12' src={Img12} alt="Design para bar ou cervejaria com foco em engajamento no Instagram" onClick={(e) => OpenModal(e)}/>*/}
               </div>
             </div>
           </div>
