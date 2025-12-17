@@ -429,7 +429,7 @@ function App() {
               <img className='service-image' src={Service1} alt="" />
               <div className='service-information'>
                 <h3 className='service-title'>arte social media</h3>
-                <p className='service-desc'>Como designer gráfico, crio artes para redes sociais (social media) que comunicam de forma estratégica e reforçam a identidade visual da marca. Cada layout é pensado fortalecer o posicionamento do seu negócio.</p>
+                <p className='service-desc'>Como designer gráfico, crio artes para redes sociais que comunicam de forma estratégica e reforçam a identidade visual da marca. Cada layout é pensado fortalecer o posicionamento do seu negócio.</p>
               </div>
             </div>
             <div className='service-box'>
@@ -442,8 +442,8 @@ function App() {
             <div className='service-box'>
               <img className='service-image' src={Service1} alt="" />
               <div className='service-information'>
-                <h3 className='service-title'>artes esportivas</h3>
-                <p className='service-desc'>Crio artes dinâmicas e impactantes para eventos e times esportivos, ajudando a destacar marcas, divulgar jogos e engajar torcedores nas redes sociais.</p>
+                <h3 className='service-title'>artes gráficas</h3>
+                <p className='service-desc'>Crio artes criativas e impactantes para materiais impressos como flyer, panfleto, banner e cartão de visita, ajudando a destacar marcas e divulgar serviços.</p>
               </div>
             </div>
           </div>
