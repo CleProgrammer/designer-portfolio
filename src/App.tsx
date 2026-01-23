@@ -9,7 +9,7 @@ import WhatsappIcon from './images/whatsappbutton/WhatsApp.svg.png'
 
 /*IMAGENS PORTFÓLIO*/
 import Img1 from './images/secondsection/img1.jpg'
-import Img2 from './images/secondsection/img2.jpg'
+import Img2 from './images/secondsection/img2.png'
 import Img3 from './images/secondsection/img3.jpg'
 import Img4 from './images/secondsection/img4.png'
 import Img5 from './images/secondsection/img5.jpg'
