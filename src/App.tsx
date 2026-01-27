@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'
 import WhatsappIcon from './images/whatsappbutton/WhatsApp.svg.png'
 
 /*IMAGENS PORTFÓLIO*/
-import Img1 from './images/secondsection/img1.jpg'
+import Img1 from './images/secondsection/img1.png'
 import Img2 from './images/secondsection/img2.png'
 import Img3 from './images/secondsection/img3.jpg'
 import Img4 from './images/secondsection/img4.png'
@@ -278,7 +278,7 @@ function App() {
                   <img
                     id="Img1"
                     src={Img1}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte de açaí para Instagram criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img1">Clique para abrir</div>
                 </div>
@@ -317,7 +317,7 @@ function App() {
                   <img
                     id="Img4"
                     src={Img4}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte de pizza para Instagram criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img4">Clique para abrir</div>
                 </div>
@@ -325,7 +325,7 @@ function App() {
                   <img
                     id="Img5"
                     src={Img5}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte de pizza criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img5">Clique para abrir</div>
                 </div>
@@ -333,7 +333,7 @@ function App() {
                   <img
                     id="Img6"
                     src={Img6}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte de pizza criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img6">Clique para abrir</div>
                 </div>
@@ -356,7 +356,7 @@ function App() {
                   <img
                     id="Img7"
                     src={Img7}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte de evento de Wesley Safadão criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img7">Clique para abrir</div>
                 </div>
@@ -364,7 +364,7 @@ function App() {
                   <img
                     id="Img8"
                     src={Img8}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Flyer de evento de Leonardo, Gusttavo Lima e Gustavo Mioto criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img8">Clique para abrir</div>
                 </div>
@@ -372,7 +372,7 @@ function App() {
                   <img
                     id="Img9"
                     src={Img9}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte esportiva de Neymar para Instagram criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img9">Clique para abrir</div>
                 </div>
@@ -394,7 +394,7 @@ function App() {
                   <img
                     id="Img10"
                     src={Img10}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte de bar e bebidas Heineken criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img10">Clique para abrir</div>
                 </div>
@@ -402,7 +402,7 @@ function App() {
                   <img
                     id="Img11"
                     src={Img11}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Flyer da Brahma para Instagram criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img11">Clique para abrir</div>
                 </div>
@@ -410,7 +410,7 @@ function App() {
                   <img
                     id="Img12"
                     src={Img12}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Arte da Skol para Instagram criada por Clebson Designer Gráfico"
                   />
                   <div className="open-hint" id="Img12">Clique para abrir</div>
                 </div>
