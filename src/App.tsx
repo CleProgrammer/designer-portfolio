@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect, useRef } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Helmet, HelmetProvider } from 'react-helmet-async'; // Adicionado para SEO
 
 
 /*IMAGEM BOTÃO WHATSAPP*/
@@ -215,7 +216,15 @@ function App() {
   }, [])
 
   return (
+    <HelmetProvider>
     <div className="App">
+      <Helmet>
+        <title>Clebson Designer | Social Media e Designer Gráfico Profissional</title>
+        <meta name="description" content="Designer gráfico focado em artes para açaíterias, pizzarias e eventos. Social media profissional para elevar o nível da sua marca." />
+        <meta name="keywords" content="designer gráfico, social media, artes para pizza, artes para açaí, identidade visual, clebson designer" />
+        <link rel="canonical" href="https://clebsondesigner.com.br" />
+      </Helmet>
+
       <div className='portfolio-modal' id='open'>
         <div className='close-modal'><div onClick={closeModal}>X</div></div>
         <div className='modal-main'>
@@ -231,7 +240,7 @@ function App() {
       <header className='header' id='home'>
         <div className='header-main'>
           <div className='logo'>
-            <a href=''>Clebson Designer</a>
+            <a href=''><h1>Clebson Designer</h1></a>
           </div>
           <nav className='menu'>
             <ul>
@@ -262,7 +271,7 @@ function App() {
 
         <section className='first-section'>
           <div className='first-section-main' data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='introduce-me'><span>Clebson</span>designer gráfico</h1>
+            <h2 className='introduce-me'><span>Clebson</span> designer gráfico</h2>
           </div>
         </section>
         <section className='second-section' id='portfolio'>
@@ -278,7 +287,8 @@ function App() {
                   <img
                     id="Img1"
                     src={Img1}
-                    alt="Arte de açaí para Instagram criada por Clebson Designer Gráfico"
+                    alt="Arte de açaí para Instagram criada por Clebson Designer Gráfico profissional"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img1">Clique para abrir</div>
                 </div>
@@ -286,7 +296,8 @@ function App() {
                   <img
                     id="Img2"
                     src={Img2}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Social media para açaíteria criada por Clebson Designer"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img2">Clique para abrir</div>
                 </div>
@@ -294,7 +305,8 @@ function App() {
                   <img
                     id="Img3"
                     src={Img3}
-                    alt="Arte de açaí criada por Clebson Designer Gráfico"
+                    alt="Design de post para açaí focado em engajamento"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img3">Clique para abrir</div>
                 </div>
@@ -317,7 +329,8 @@ function App() {
                   <img
                     id="Img4"
                     src={Img4}
-                    alt="Arte de pizza para Instagram criada por Clebson Designer Gráfico"
+                    alt="Arte de pizza para Instagram - Design por Clebson Designer"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img4">Clique para abrir</div>
                 </div>
@@ -325,7 +338,8 @@ function App() {
                   <img
                     id="Img5"
                     src={Img5}
-                    alt="Arte de pizza criada por Clebson Designer Gráfico"
+                    alt="Design de social media para pizzarias profissionais"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img5">Clique para abrir</div>
                 </div>
@@ -333,7 +347,8 @@ function App() {
                   <img
                     id="Img6"
                     src={Img6}
-                    alt="Arte de pizza criada por Clebson Designer Gráfico"
+                    alt="Arte criativa de pizza para redes sociais"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img6">Clique para abrir</div>
                 </div>
@@ -356,7 +371,8 @@ function App() {
                   <img
                     id="Img7"
                     src={Img7}
-                    alt="Arte de evento de Wesley Safadão criada por Clebson Designer Gráfico"
+                    alt="Arte de evento Wesley Safadão - Clebson Designer Gráfico"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img7">Clique para abrir</div>
                 </div>
@@ -364,7 +380,8 @@ function App() {
                   <img
                     id="Img8"
                     src={Img8}
-                    alt="Flyer de evento de Leonardo, Gusttavo Lima e Gustavo Mioto criada por Clebson Designer Gráfico"
+                    alt="Flyer de evento sertanejo profissional"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img8">Clique para abrir</div>
                 </div>
@@ -372,7 +389,8 @@ function App() {
                   <img
                     id="Img9"
                     src={Img9}
-                    alt="Arte esportiva de Neymar para Instagram criada por Clebson Designer Gráfico"
+                    alt="Arte esportiva Neymar para Instagram"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img9">Clique para abrir</div>
                 </div>
@@ -394,7 +412,8 @@ function App() {
                   <img
                     id="Img10"
                     src={Img10}
-                    alt="Arte de bar e bebidas Heineken criada por Clebson Designer Gráfico"
+                    alt="Arte para bar Heineken - Clebson Designer"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img10">Clique para abrir</div>
                 </div>
@@ -402,7 +421,8 @@ function App() {
                   <img
                     id="Img11"
                     src={Img11}
-                    alt="Flyer da Brahma para Instagram criada por Clebson Designer Gráfico"
+                    alt="Social media para bares Brahma"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img11">Clique para abrir</div>
                 </div>
@@ -410,7 +430,8 @@ function App() {
                   <img
                     id="Img12"
                     src={Img12}
-                    alt="Arte da Skol para Instagram criada por Clebson Designer Gráfico"
+                    alt="Design de post para bar Skol"
+                    loading="lazy"
                   />
                   <div className="open-hint" id="Img12">Clique para abrir</div>
                 </div>
@@ -509,6 +530,7 @@ function App() {
         </div>
       </footer>
     </div>
+    </HelmetProvider>
   );
 }
 
