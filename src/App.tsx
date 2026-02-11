@@ -407,7 +407,7 @@ function App() {
               <img className='service-image' src={Service1} alt="" />
               <div className='service-information'>
                 <h3 className='service-title'>artes gráficas</h3>
-                <p className='service-desc'>Crio artes criativas e impactantes para materiais impressos como flyer, panfleto, banner e cartão de visita, ajudando a destacar marcas e divulgar serviços.</p>
+                <p className='service-desc'>Como designer gráfico freelancer crio artes criativas e impactantes para materiais impressos como flyer, panfleto, banner e cartão de visita, ajudando a destacar marcas e divulgar serviços.</p>
               </div>
             </div>
           </div>
