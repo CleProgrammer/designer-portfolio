@@ -162,9 +162,9 @@ function App() {
     <HelmetProvider>
     <div className="App">
       <Helmet>
-        <title>Clebson Designer | Social Media e Designer Gráfico Profissional</title>
-        <meta name="description" content="Designer gráfico focado em artes para açaíterias, pizzarias e eventos. Social media profissional para elevar o nível da sua marca." />
-        <meta name="keywords" content="designer gráfico, social media, artes para pizza, artes para açaí, identidade visual, clebson designer" />
+        <title>Designer Gráfico Freelancer | Clebson Designer - Artes para Instagram</title>
+        <meta name="description" content="Precisa contratar designer gráfico? Clebson é designer gráfico freelancer especialista em arte para instagram profissional, artes para pizzaria, açaí e eventos." />
+        <meta name="keywords" content="designer gráfico freelancer, contratar designer gráfico, arte para instagram profissional, arte para pizzaria, artes para açaí, social media, clebson designer" />
         <link rel="canonical" href="https://clebsondesigner.com.br" />
       </Helmet>
 
