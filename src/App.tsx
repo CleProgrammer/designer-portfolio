@@ -38,17 +38,6 @@ function App() {
                   [Img6, 'Img6'], [Img7, 'Img7'], [Img8, 'Img8'], [Img9, 'Img9'], [Img10, 'Img10'],
                   [Img11, 'Img11'], [Img12, 'Img12']]
 
-  /*const openInstagram = () => {
-    const app = "instagram://user?username=clebsondesignergrafico";
-    const web = "https://www.instagram.com/clebsondesignergrafico/";
-
-    window.location.href = app;
-
-    setTimeout(() => {
-      window.location.href = web;
-    }, 400);
-  };*/
-
 
   const openInstagram = (e:any) => {
     e.preventDefault(); // impede o href de abrir nova aba
@@ -86,33 +75,6 @@ function App() {
   };
 
 
-  /*const openWhatsApp = () => {
-  const phone = "5575998009769"; // Seu número com código do país
-  const appUrl = `whatsapp://send?phone=${phone}`; // App do WhatsApp
-  const webUrl = `https://wa.me/${phone}`;         // WhatsApp Web
-
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
-  if (isMobile) {
-    let appOpened = false;
-
-    const onVisibilityChange = () => {
-      if (document.hidden) appOpened = true;
-    };
-    document.addEventListener("visibilitychange", onVisibilityChange);
-
-    window.location.href = appUrl;
-
-    setTimeout(() => {
-      if (!appOpened) window.location.href = webUrl;
-      document.removeEventListener("visibilitychange", onVisibilityChange);
-    }, 1200);
-
-  } else {
-    window.open(webUrl, "_blank");
-  }
-};*/
-
   const openWhatsApp = (e:any) => {
     e.preventDefault(); // impede o href de abrir nova aba
 
@@ -133,25 +95,6 @@ function App() {
       window.open(webUrl, "_blank");
     }
   };
-
-  /*const OpenModal = (e:any):void => {
-    if( c('.App .portfolio-modal') ) {
-      if(c('.App .portfolio-modal').id === 'open') {
-        
-        imagesBox.map((item) => {
-          if(e.target.id === item[1]) {
-            c('.App .portfolio-modal .modal-main img').src = item[0]
-            c('.App .portfolio-modal').style.display = 'flex'
-            c('.App .portfolio-modal').id = 'close'
-          }
-        }) 
-
-      } else if( c('.App .portfolio-modal').id === 'close' ) {
-        c('.App .portfolio-modal').style.display = 'none'
-        c('.App .portfolio-modal').id = 'open'
-      }
-    }
-  }*/
 
   const modalInHistory = useRef(false);
   const closingByX = useRef(false);
@@ -240,7 +183,7 @@ function App() {
       <header className='header' id='home'>
         <div className='header-main'>
           <div className='logo'>
-            <a href=''><h1>Clebson Designer</h1></a>
+            <a href=''>Clebson Designer</a>
           </div>
           <nav className='menu'>
             <ul>
@@ -271,14 +214,14 @@ function App() {
 
         <section className='first-section'>
           <div className='first-section-main' data-aos="fade-up" data-aos-duration="1000">
-            <h2 className='introduce-me'><span>Clebson</span> designer gráfico</h2>
+            <h1 className='introduce-me'><span>Designer</span>gráfico freelancer</h1>
           </div>
         </section>
         <section className='second-section' id='portfolio'>
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
               <h2 className='title'>açaí</h2>
-              <p className='art-desc'>Artes criadas para açaíterias, com foco em cores vibrantes, clima tropical e comunicação visual que desperta o apetite. Desenvolvidas para destacar a marca e gerar engajamento nas redes sociais do segmento de açaí.</p>
+              <p className='art-desc'>Arte criada para açaíteria, arte para instagram, clima tropical e comunicação visual que desperta o apetite. Desenvolvidas para destacar a marca e gerar engajamento nas redes sociais do segmento de açaí.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -321,7 +264,7 @@ function App() {
             <article className='desc-arts'>
               <h2 className='title pizza'>pizza
               </h2>
-              <p className='art-desc'>Como designer gráfico criei artes pensadas para pizzarias, com principal foco em cores quentes e comunicação visual que destaca a pizza. Desenvolvidas para destacar a marca e gerar engajamento nas redes sociais do segmento de pizzaria.</p>
+              <p className='art-desc'>Como designer gráfico freelancer, crio arte para pizzaria com foco visual na sua marca. Se quer contratar designer gráfico, chame agora para criar sua arte para instagram profissional.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -362,7 +305,7 @@ function App() {
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
               <h2 className='title lanche'>evento</h2>
-              <p className='art-desc'>Artes para eventos, elaboradas por Clebson designer gráfico com foco em cores atrativas para chamar atenção. Artes para redes sociais pensadas para destacar e gerar engajamento no nicho de festas, shows e eventos para estabelecimentos.</p>
+              <p className='art-desc'>Arte para evento, elaboradas por designer gráfico freelancer com foco em cores atrativas para chamar atenção. Artes para redes sociais pensadas para destacar e gerar engajamento no nicho de festas, shows e eventos para estabelecimentos.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -403,7 +346,7 @@ function App() {
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
               <h2 className='title bar'>bares</h2>
-              <p className='art-desc'>Artes criadas por Clebson designer gráfico com foco em cores marcantes e muitos elementos visuais que remetem ao universo do bar. Criações para redes sociais, ideais para divulgar drinks, promoções e gerar engajamento com o segmento de bares e cervejarias.</p>
+              <p className='art-desc'>Arte criada para bar por designer gráfico freelancer com foco em elementos visuais que remetem ao universo do bar. Criações para redes sociais, ideais para divulgar drinks, promoções e gerar engajamento com o segmento de bares e cervejarias.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -450,14 +393,14 @@ function App() {
               <img className='service-image' src={Service1} alt="" />
               <div className='service-information'>
                 <h3 className='service-title'>arte social media</h3>
-                <p className='service-desc'>Como designer gráfico, crio artes para redes sociais que comunicam de forma estratégica e reforçam a identidade visual da marca. Cada layout é pensado fortalecer o posicionamento do seu negócio.</p>
+                <p className='service-desc'>Como designer gráfico, crio arte para instagram profissional que comunica de forma estratégica e reforçam a identidade visual da marca. Cada layout é pensado fortalecer o posicionamento do seu negócio.</p>
               </div>
             </div>
             <div className='service-box'>
               <img className='service-image' src={Service1} alt="" />
               <div className='service-information'>
                 <h3 className='service-title'>arte para evento</h3>
-                <p className='service-desc'>Crio artes únicas e chamativas para divulgar shows, festas e promoções, garantindo impacto visual marcante nas redes sociais e ajudando seu evento a alcançar mais público.</p>
+                <p className='service-desc'>Ideal ao contratar designer gráfico freelancer para divulgar shows, festas e promoções, garantindo impacto visual marcante nas redes sociais e ajudando seu evento a alcançar mais público.</p>
               </div>
             </div>
             <div className='service-box'>
