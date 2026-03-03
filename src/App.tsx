@@ -214,7 +214,7 @@ function App() {
 
         <section className='first-section'>
           <div className='first-section-main' data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='introduce-me'><span>Designer</span>gráfico freelancer</h1>
+            <h1 className='introduce-me'><span>Clebson</span>designer gráfico</h1>
           </div>
         </section>
         <section className='second-section' id='portfolio'>
