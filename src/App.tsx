@@ -233,7 +233,7 @@ function App() {
                     alt="Arte de açaí para Instagram criada por Clebson Designer Gráfico profissional"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img1">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/flyer-açaí' target='blank' className="open-hint" id="Img1">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img2" onClick={(e) => OpenModal(e)}>
                   <img
@@ -242,7 +242,7 @@ function App() {
                     alt="Social media para açaíteria criada por Clebson Designer"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img2">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/designer-para-açaíteria' target='blank' className="open-hint" id="Img2">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img3" onClick={(e) => OpenModal(e)}>
                   <img
@@ -251,7 +251,7 @@ function App() {
                     alt="Design de post para açaí focado em engajamento"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img3">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/arte-para-açaí' target='blank' className="open-hint" id="Img3">Abrir página</a>
                 </div>
 
                 {/*<img id='Img1' src={Img1} alt="Arte de açaí criada por Clebson Designer Gráfico Freelancer e social media com visual atrativo" onClick={(e) => OpenModal(e)} />
@@ -275,7 +275,7 @@ function App() {
                     alt="Arte de pizza para Instagram - Design por Clebson Designer"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img4">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/designer-grafico-para-pizzaria' target='blank' className="open-hint" id="Img4">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img5" onClick={(e) => OpenModal(e)}>
                   <img
@@ -284,7 +284,7 @@ function App() {
                     alt="Design de social media para pizzarias profissionais"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img5">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/flyer-para-pizzaria' target='blank' className="open-hint" id="Img5">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img6" onClick={(e) => OpenModal(e)}>
                   <img
@@ -293,7 +293,7 @@ function App() {
                     alt="Arte criativa de pizza para redes sociais"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img6">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/designer-para-pizzaria' target='blank' className="open-hint" id="Img6">Abrir página</a>
                 </div>
 
                 {/*<img id='Img4' src={Img4} alt="Arte para pizzaria criada por Clebson Designer Gráfico Freelancer para social media com destaque para sabores e visual apetitoso da pizza" onClick={(e) => OpenModal(e)}/>
@@ -317,7 +317,7 @@ function App() {
                     alt="Arte de evento Wesley Safadão - Clebson Designer Gráfico"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img7">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/flyer-para-evento' target='blank' className="open-hint" id="Img7">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img8" onClick={(e) => OpenModal(e)}>
                   <img
@@ -326,7 +326,7 @@ function App() {
                     alt="Flyer de evento sertanejo profissional"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img8">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/flyer-para-show' target='blank' className="open-hint" id="Img8">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img9" onClick={(e) => OpenModal(e)}>
                   <img
@@ -335,7 +335,7 @@ function App() {
                     alt="Arte esportiva Neymar para Instagram"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img9">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/flyer-neymar' target='blank' className="open-hint" id="Img9">Abrir página</a>
                 </div>
                 {/*<img id='Img7' src={Img7} alt="Imagem mostra um flyer de um show ou evento sertanejo com Gusttavo Lima, Leonardo e Gustavo Mioto criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
                 <img id='Img8' src={Img8} alt="Imagem mostra uma arte esportiva de Neymar Jr. criada por Clebson designer gráfico freelancer e social media" onClick={(e) => OpenModal(e)}/>
@@ -358,7 +358,7 @@ function App() {
                     alt="Arte para bar Heineken - Clebson Designer"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img10">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/flyer-heineken' target='blank' className="open-hint" id="Img10">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img11" onClick={(e) => OpenModal(e)}>
                   <img
@@ -367,7 +367,7 @@ function App() {
                     alt="Social media para bares Brahma"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img11">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/designer-grafico-para-bar' target='blank' className="open-hint" id="Img11">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img12" onClick={(e) => OpenModal(e)}>
                   <img
@@ -376,7 +376,7 @@ function App() {
                     alt="Design de post para bar Skol"
                     loading="lazy"
                   />
-                  <div className="open-hint" id="Img12">Clique para abrir</div>
+                  <a href='https://clebsondesigner.com.br/flyer-cerveja-skol' target='blank' className="open-hint" id="Img12">Abrir página</a>
                 </div>
                 {/*<img id='Img10' src={Img10} alt="Arte para bar com drinks e clima descontraído" onClick={(e) => OpenModal(e)}/>
                 <img id='Img11' src={Img11} alt="Post para redes sociais de bar com promoções e identidade visual vibrante" onClick={(e) => OpenModal(e)}/>
