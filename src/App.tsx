@@ -162,7 +162,7 @@ function App() {
     <HelmetProvider>
     <div className="App">
       <Helmet>
-        <title>Designer Gráfico Freelancer | Clebson Designer - Artes para Instagram</title>
+        <title>Designer Gráfico Freelancer | Clebson Designer | Artes para Instagram</title>
         <meta name="description" content="Precisa contratar designer gráfico? Clebson é designer gráfico freelancer especialista em arte para instagram profissional, artes para pizzaria, açaí e eventos." />
         <meta name="keywords" content="designer gráfico freelancer, contratar designer gráfico, arte para instagram profissional, arte para pizzaria, artes para açaí, social media, clebson designer" />
         <link rel="canonical" href="https://clebsondesigner.com.br" />
@@ -221,7 +221,7 @@ function App() {
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
               <h2 className='title'>açaí</h2>
-              <p className='art-desc'>Arte criada para açaíteria, arte para instagram, clima tropical e comunicação visual que desperta o apetite. Desenvolvidas para destacar a marca e gerar engajamento nas redes sociais do segmento de açaí.</p>
+              <p className='art-desc'>Arte criada para açaíteria, designer para instagram, clima tropical e comunicação visual que desperta o apetite. Desenvolvidas para destacar a marca e gerar engajamento nas redes sociais do segmento de açaí.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
