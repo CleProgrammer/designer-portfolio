@@ -162,10 +162,45 @@ function App() {
     <HelmetProvider>
     <div className="App">
       <Helmet>
-        <title>Designer Gráfico Freelancer | Clebson Designer | Artes para Instagram</title>
-        <meta name="description" content="Precisa contratar designer gráfico? Clebson é designer gráfico freelancer especialista em arte para instagram profissional, artes para pizzaria, açaí e eventos." />
-        <meta name="keywords" content="designer gráfico freelancer, contratar designer gráfico, arte para instagram profissional, arte para pizzaria, artes para açaí, social media, clebson designer" />
+        <title>Designer Gráfico Freelancer para Instagram, Pizzarias, Açaíterias e Eventos | Clebson Designer</title>
+        <meta name="description" content="Designer gráfico freelancer especializado em artes para Instagram, pizzarias, açaíterias, bares, restaurantes e eventos. Criação de flyers, posts profissionais e materiais gráficos personalizados." />
+        <meta name="keywords" content="designer gráfico freelancer, designer para instagram, designer para pizzaria, designer para restaurante, flyer para evento, artes para redes sociais, social media designer" />
         <link rel="canonical" href="https://clebsondesigner.com.br" />
+
+        <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "Clebson Designer Gráfico",
+          "url": "https://clebsondesigner.com.br",
+          "description": "Designer gráfico freelancer especializado em artes para Instagram, pizzarias, eventos e redes sociais.",
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "Brazil"
+            },
+            {
+              "@type": "Country",
+              "name": "Portugal"
+            }
+          ],
+          "serviceType": [
+            "Designer gráfico para Instagram",
+            "Flyer para eventos",
+            "Designer gráfico para redes sociais",
+            "Designer gráfico para restaurantes",
+            "Designer gráfico para pizzaria",
+            "Artes esportivas",
+            "Designer gráfico para Açaíteria",
+            "Cartão de visita"
+          ],
+          "sameAs": [
+            "https://www.instagram.com/clebsondesignergrafico/"
+          ]
+        }
+        `}
+        </script>
       </Helmet>
 
       <div className='portfolio-modal' id='open'>
@@ -214,9 +249,39 @@ function App() {
 
         <section className='first-section'>
           <div className='first-section-main' data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='introduce-me'><span>Clebson</span>designer gráfico</h1>
+            <h1 className='introduce-me'>Designer Gráfico Freelancer para Instagram, Pizzarias, Açaíterias, Artes Esportivas, Igrejas e Eventos</h1>
           </div>
         </section>
+
+        <section className='seo-text'>
+          <div className='seo-text-main' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+
+            <h2>
+              Designer gráfico freelancer para redes sociais e empresas
+            </h2>
+
+            <p>
+              Sou designer gráfico freelancer especializado na criação de artes para Instagram,
+              flyers promocionais, posts para redes sociais, design para pizzarias,
+              açaíterias, bares, restaurantes, eventos e diversos segmentos comerciais.
+            </p>
+
+            <p>
+              Desenvolvo artes profissionais com foco em identidade visual,
+              engajamento e divulgação estratégica para empresas que desejam
+              fortalecer sua presença nas redes sociais.
+            </p>
+
+            <p>
+              Também crio flyers, banners, panfletos, cartões de visita
+              e materiais gráficos personalizados para negócios de diferentes nichos.
+            </p>
+
+          </div>
+        </section>
+
+
+
         <section className='second-section' id='portfolio'>
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
@@ -231,7 +296,7 @@ function App() {
                     id="Img1"
                     src={Img1}
                     alt="Arte de açaí para Instagram criada por Clebson Designer Gráfico profissional"
-                    loading="lazy"
+                    loading="eager"
                   />
                   <a href='https://clebsondesigner.com.br/flyer-açaí' target='blank' className="open-hint" id="Img1">Abrir página</a>
                 </div>
@@ -387,24 +452,24 @@ function App() {
         </section>
 
         <section className='third-section' id='serviços'>
-          <h2 className='services' data-aos="fade-up" data-aos-duration="1000">meus serviços</h2>
+          <h2 className='services' data-aos="fade-up" data-aos-duration="1000">Meus serviços de Design Gráfico para Redes Sociais</h2>
           <div className='services-main' data-aos="fade-up" data-aos-duration="1000">
             <div className='service-box'>
-              <img className='service-image' src={Service1} alt="" />
+              <img className='service-image' src={Service1} alt="Serviço profissional de design gráfico para redes sociais" />
               <div className='service-information'>
                 <h3 className='service-title'>arte social media</h3>
                 <p className='service-desc'>Como designer gráfico, crio arte para instagram profissional que comunica de forma estratégica e reforçam a identidade visual da marca. Cada layout é pensado fortalecer o posicionamento do seu negócio.</p>
               </div>
             </div>
             <div className='service-box'>
-              <img className='service-image' src={Service1} alt="" />
+              <img className='service-image' src={Service1} alt="Serviço profissional de design gráfico para redes sociais" />
               <div className='service-information'>
                 <h3 className='service-title'>arte para evento</h3>
                 <p className='service-desc'>Ideal ao contratar designer gráfico freelancer para divulgar shows, festas e promoções, garantindo impacto visual marcante nas redes sociais e ajudando seu evento a alcançar mais público.</p>
               </div>
             </div>
             <div className='service-box'>
-              <img className='service-image' src={Service1} alt="" />
+              <img className='service-image' src={Service1} alt="Serviço profissional de design gráfico para redes sociais" />
               <div className='service-information'>
                 <h3 className='service-title'>artes gráficas</h3>
                 <p className='service-desc'>Como designer gráfico freelancer crio artes criativas e impactantes para materiais impressos como flyer, panfleto, banner e cartão de visita, ajudando a destacar marcas e divulgar serviços.</p>
@@ -412,6 +477,43 @@ function App() {
             </div>
           </div>
         </section>
+
+
+        <section className='faq-section'>
+
+          <div className='faq-main' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+
+            <h2>Perguntas frequentes sobre design gráfico</h2>
+
+            <div className='faq-item'>
+              <h3>Quais tipos de arte você cria?</h3>
+              <p>
+                Crio artes para Instagram, flyers, banners, cartões de visita,
+                materiais promocionais e conteúdos visuais para redes sociais.
+              </p>
+            </div>
+
+            <div className='faq-item'>
+              <h3>Você atende pizzarias e restaurantes?</h3>
+              <p>
+                Sim. Desenvolvo artes profissionais para pizzarias,
+                restaurantes, bares, lanchonetes, açaíterias e diversos segmentos.
+              </p>
+            </div>
+
+            <div className='faq-item'>
+              <h3>Você cria artes para eventos?</h3>
+              <p>
+                Sim. Produzo flyers e artes promocionais para shows,
+                festas, eventos sertanejos e campanhas publicitárias.
+              </p>
+            </div>
+
+          </div>
+
+        </section>
+
+
 
         <section className='fourth-section' id='contatos'>
           <div className='contacts'>
