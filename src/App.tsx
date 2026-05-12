@@ -167,36 +167,51 @@ function App() {
         <meta name="keywords" content="designer gráfico freelancer, designer para instagram, designer para pizzaria, designer para restaurante, flyer para evento, artes para redes sociais, social media designer" />
         <link rel="canonical" href="https://clebsondesigner.com.br" />
 
+
         <script type="application/ld+json">
         {`
         {
           "@context": "https://schema.org",
-          "@type": "ProfessionalService",
-          "name": "Clebson Designer Gráfico",
-          "url": "https://clebsondesigner.com.br",
-          "description": "Designer gráfico freelancer especializado em artes para Instagram, pizzarias, eventos e redes sociais.",
-          "areaServed": [
+          "@graph": [
             {
-              "@type": "Country",
-              "name": "Brazil"
+              "@type": "Person",
+              "name": "Clebson Barbosa",
+              "url": "https://clebsondesigner.com.br",
+              "jobTitle": "Designer Gráfico Freelancer",
+              "sameAs": [
+                "https://www.instagram.com/clebsondesignergrafico/"
+              ]
             },
             {
-              "@type": "Country",
-              "name": "Portugal"
+              "@type": "ProfessionalService",
+              "name": "Clebson Designer",
+              "url": "https://clebsondesigner.com.br",
+              "description": "Designer gráfico freelancer especializado em artes para Instagram, pizzarias, eventos e redes sociais.",
+              "areaServed": [
+                {
+                  "@type": "Country",
+                  "name": "Brazil"
+                },
+                {
+                  "@type": "Country",
+                  "name": "Portugal"
+                }
+              ],
+              "serviceType": [
+                "Designer gráfico para Instagram",
+                "Flyer para eventos",
+                "Designer gráfico para redes sociais",
+                "Designer gráfico para restaurantes",
+                "Designer gráfico para pizzaria",
+                "Artes esportivas",
+                "Designer gráfico para Açaíteria",
+                "Cartão de visita"
+              ],
+              "founder": {
+                "@type": "Person",
+                "name": "Clebson Barbosa"
+              }
             }
-          ],
-          "serviceType": [
-            "Designer gráfico para Instagram",
-            "Flyer para eventos",
-            "Designer gráfico para redes sociais",
-            "Designer gráfico para restaurantes",
-            "Designer gráfico para pizzaria",
-            "Artes esportivas",
-            "Designer gráfico para Açaíteria",
-            "Cartão de visita"
-          ],
-          "sameAs": [
-            "https://www.instagram.com/clebsondesignergrafico/"
           ]
         }
         `}
