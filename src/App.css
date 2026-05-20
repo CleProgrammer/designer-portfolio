@@ -416,7 +416,7 @@ a {
   align-items: end;
   width: 60%;
   height: 25%;
-  font-size: 3rem;
+  font-size: 2.9rem;
   font-family: "MinhaFonteCentury";
   color: rgb(184, 184, 184);
   margin: 0;
@@ -851,6 +851,10 @@ a {
 
   .App main .second-section .portfolio .desc-arts .title.bar {
     font-size: 5rem;
+  }
+
+  .App main .third-section .services {
+    font-size: 2.5rem;
   }
 
   .App main .third-section .services-main .service-box .service-information .service-title {
@@ -1368,11 +1372,11 @@ a {
   }
 
   .App main .third-section .services {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
   } 
 
   .App main .third-section .services-main .service-box .service-information .service-title {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 
   .App main .third-section .services-main .service-box .service-information .service-desc {
@@ -1632,7 +1636,7 @@ a {
   .App main .first-section .first-section-main .introduce-me {
     font-size: 35px;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 8vw;
   }
 
   .seo-text {
@@ -1698,7 +1702,7 @@ a {
     /**/width: 85%;
     /**/height: 60%;
     /**/font-size: 17.9px;
-    font-size: 4.9vw;
+    font-size: 4.4vw;
   }
 
   .App main .second-section .portfolio .arts-examples {
