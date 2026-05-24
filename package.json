@@ -24,9 +24,12 @@
     "predeploy": "npm run build && copy CNAME build\\CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "reactSnap": {
+  "include": ["/"]
   },
   "eslintConfig": {
     "extends": [
@@ -49,6 +52,7 @@
   "devDependencies": {
     "@types/aos": "^3.0.7",
     "@types/jquery": "^3.5.29",
-    "gh-pages": "^6.1.0"
+    "gh-pages": "^6.1.0",
+    "react-snap": "^1.23.0"
   }
 }
