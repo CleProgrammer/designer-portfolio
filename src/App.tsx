@@ -265,7 +265,7 @@ function App() {
 
         <section className='first-section'>
           <div className='first-section-main' data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='introduce-me'>Contratar Designer Gráfico Freelancer para Instagram, Pizzarias, Açaíterias, Artes Esportivas, Igrejas e Eventos</h1>
+            <h1 className='introduce-me'>Contratar Designer Gráfico Freelancer para Instagram, Pizzarias, Açaíterias, Artes Esportivas, Restaurante, Igrejas e Eventos</h1>
           </div>
         </section>
 
