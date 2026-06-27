@@ -481,39 +481,48 @@ function App() {
         </section>
 
 
-        <section className='faq-section'>
+        <section className="faq-section">
+          <div className='faq-main'>
+            <h2>Perguntas Frequentes</h2>
 
-          <div className='faq-main' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-
-            <h2>Perguntas frequentes sobre contratar design gráfico</h2>
-
-            <div className='faq-item'>
-              <h3>Quais tipos de arte você cria como freelancer?</h3>
-              <p>
-                Crio artes para Instagram, flyers digitais, banners para YouTube, cartões de visita,
-                materiais promocionais de alta definição e conteúdos visuais completos para redes sociais.
-              </p>
+            <div className="faq-item">
+                <h3>Como funciona o processo de criação?</h3>
+                <p>
+                    Após o primeiro contato, você informa as necessidades do projeto e envia as informações necessárias. Em seguida, inicio o desenvolvimento da arte, apresento uma prévia para avaliação e realizo os ajustes necessários antes da entrega final.
+                </p>
             </div>
 
-            <div className='faq-item'>
-              <h3>Você atende pizzarias, lanchonetes e restaurantes?</h3>
-              <p>
-                Sim. Desenvolvo artes profissionais focadas em conversão e delivery para pizzarias,
-                hamburguerias, restaurantes, bares, lanchonetes, açaíterias e diversos segmentos comerciais.
-              </p>
+            <div className="faq-item">
+                <h3>Em quanto tempo a arte fica pronta?</h3>
+                <p>
+                    O prazo varia de acordo com o tipo de projeto e a quantidade de materiais solicitados. Antes do início do trabalho, informo um prazo estimado para entrega.
+                </p>
             </div>
 
-            <div className='faq-item'>
-              <h3>Você cria flyers e artes para eventos e clubes esportivos?</h3>
-              <p>
-                Sim. Produzo flyers e artes promocionais de matchday para redes sociais de clubes, mídias para shows,
-                festas, eventos sertanejos, eSports e campanhas publicitárias completas.
-              </p>
+            <div className="faq-item">
+                <h3>Posso solicitar alterações?</h3>
+                <p>
+                    Sim. Durante o desenvolvimento do projeto você poderá solicitar ajustes para que o resultado final fique de acordo com suas expectativas.
+                </p>
             </div>
 
+            <div className="faq-item">
+                <h3>Você atende clientes de todo o Brasil?</h3>
+                <p>
+                    Sim. Todo o atendimento é realizado de forma online, permitindo desenvolver projetos para clientes de qualquer estado do Brasil.
+                </p>
+            </div>
+
+            <div className="faq-item">
+                <h3>Por que contratar um designer gráfico profissional?</h3>
+                <p>
+                    Um designer gráfico profissional desenvolve materiais personalizados que fortalecem a identidade visual da empresa, aumentam a credibilidade da marca e ajudam a transmitir uma comunicação mais eficiente para clientes e seguidores.
+                </p>
+            </div>
           </div>
 
         </section>
+
 
 
 
