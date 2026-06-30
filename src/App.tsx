@@ -273,26 +273,20 @@ function App() {
           <div className='seo-text-main' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
 
             <h2>
-              Designer gráfico freelancer para redes sociais, empresas e criativos de alta conversão
+              Designer gráfico freelancer para redes sociais, empresas e artes gráficas
             </h2>
 
             <p>
               Sou designer gráfico freelancer especializado na criação de artes para Instagram,
               flyers promocionais, posts para redes sociais, design para pizzarias,
-              açaíterias, bares, restaurantes, eventos e diversos segmentos comerciais. Se você busca um profissional para terceirizar a identidade visual do seu negócio ou fechar um pacote mensal de mídias sociais, encontrou o lugar certo.
+              açaíterias, bares, restaurantes, eventos e diversos segmentos comerciais.
             </p>
 
             <p>
-              Desenvolvo artes profissionais com foco em identidade visual, briefing estratégico,
-              engajamento e divulgação de alta performance para empresas que desejam
-              fortalecer sua presença nas mídias digitais e atrair mais clientes no ambiente online.
+              Também desenvolvo artes gráficas como cartões de visita, panfletos, banners
+              e outros materiais personalizados, sempre com foco em qualidade, identidade
+              visual e fortalecimento da marca.
             </p>
-
-            <p>
-              Também crio flyers digitais, banners para YouTube, panfletos, cartões de visita, layouts modernos
-              e materiais gráficos personalizados para negócios de diferentes nichos com arquivos finais entregues em alta definição.
-            </p>
-
           </div>
         </section>
 
