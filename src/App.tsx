@@ -390,10 +390,10 @@ function App() {
                   <img
                     id="Img8"
                     src={Img8}
-                    alt="Flyer de evento sertanejo profissional em alta definição"
+                    alt="Flyer de evento jogo do Flamengo"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-para-show' target='blank' className="open-hint" id="Img8">Abrir página</a>
+                  <a href='https://clebsondesigner.com.br/designer-grafico-esportivo' target='blank' className="open-hint" id="Img8">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img9" onClick={(e) => OpenModal(e)}>
                   <img
