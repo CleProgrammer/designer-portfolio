@@ -11,7 +11,7 @@ import WhatsappIcon from './images/whatsappbutton/WhatsApp.svg.png'
 /*IMAGENS PORTFÓLIO*/
 import Img1 from './images/secondsection/img1.png'
 import Img2 from './images/secondsection/img2.png'
-import Img3 from './images/secondsection/img3.jpg'
+import Img3 from './images/secondsection/img3.png'
 import Img4 from './images/secondsection/img4.png'
 import Img5 from './images/secondsection/img5.jpg'
 import Img6 from './images/secondsection/img6.png'
@@ -399,10 +399,10 @@ function App() {
                   <img
                     id="Img9"
                     src={Img9}
-                    alt="Arte esportiva Neymar para Instagram - Design de Social Media Esportivo"
+                    alt="Designer Gráfico para Eventos - Ana Castela"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-neymar' target='blank' className="open-hint" id="Img9">Abrir página</a>
+                  <a href='https://clebsondesigner.com.br/flyer-para-show' target='blank' className="open-hint" id="Img9">Abrir página</a>
                 </div>
               </div>
             </div>
