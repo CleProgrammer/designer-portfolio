@@ -292,8 +292,8 @@ a {
   height: 13%;
 }
 
-.App main .second-section .portfolio .desc-arts .title.bar {
-  font-size: 5.4rem;
+.App main .second-section .portfolio .desc-arts .title.grafica {
+  font-size: 4rem;
   height: 18%;
 }
 
@@ -762,6 +762,10 @@ a {
 
   .App main .third-section .services-main .service-box .service-information .service-desc {
     font-size: 1.3rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.grafica {
+    font-size: 5.5rem;
   }
 
 
@@ -1363,8 +1367,8 @@ a {
     font-size: 80px;
   }
 
-  .App main .second-section .portfolio .desc-arts .title.bar {
-    font-size: 95px;
+  .App main .second-section .portfolio .desc-arts .title.grafica {
+    font-size: 5rem;
   }
 
   .App main .second-section .portfolio .desc-arts .art-desc {
@@ -1449,8 +1453,8 @@ a {
     font-size: 130px;
   }
 
-  .App main .second-section .portfolio .desc-arts .title.bar {
-    font-size: 150px;
+  .App main .second-section .portfolio .desc-arts .title.grafica {
+    font-size: 7.5rem;
   }
 
   .App main .second-section .portfolio .desc-arts .art-desc {
@@ -1534,8 +1538,8 @@ a {
     font-size: 200px;
   }
 
-  .App main .second-section .portfolio .desc-arts .title.bar {
-    font-size: 230px;
+  .App main .second-section .portfolio .desc-arts .title.grafica {
+    font-size: 185px;
   }
 
   .App main .second-section .portfolio .desc-arts .art-desc {

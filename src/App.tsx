@@ -18,9 +18,9 @@ import Img6 from './images/secondsection/img6.png'
 import Img7 from './images/secondsection/img7.png'
 import Img8 from './images/secondsection/img8.png'
 import Img9 from './images/secondsection/img9.png'
-import Img10 from './images/secondsection/img10.jpg'
-import Img11 from './images/secondsection/img11.jpg'
-import Img12 from './images/secondsection/img12.jpg'
+import Img10 from './images/secondsection/img10.png'
+import Img11 from './images/secondsection/img11.png'
+import Img12 from './images/secondsection/img12.png'
 
 /*IMAGENS THIRD SECTION*/
 import Service1 from './images/thirdsection/service1.png'
@@ -265,7 +265,7 @@ function App() {
 
         <section className='first-section'>
           <div className='first-section-main' data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='introduce-me'>Contratar Designer Gráfico Freelancer para Instagram, Pizzarias, Açaíterias, Artes Esportivas, Restaurante, Igrejas e Eventos</h1>
+            <h1 className='introduce-me'>Contratar Designer Gráfico Freelancer para Instagram, Pizzarias, Açaíterias, Artes Esportivas, Restaurante, Gráficas e Eventos</h1>
           </div>
         </section>
 
@@ -409,8 +409,8 @@ function App() {
           </div>
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
-              <h2 className='title bar'>bares</h2>
-              <p className='art-desc'>Arte criada para bar por designer gráfico freelancer com foco em elementos visuais dinâmicos que remetem ao universo do bar e petiscos. Criações para redes sociais, ideais para divulgar drinks, cardápios, promoções noturnas e gerar engajamento com o segmento de bares, adegas e cervejarias.</p>
+              <h2 className='title grafica'>gráfica</h2>
+              <p className='art-desc'>Artes para gráficas. Criações como cartão de visitas, encarte para comércio, flyers e materiais impressos, ideais para divulgar produtos, serviços, promoções e fortalecer a comunicação visual de empresas e negócios.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -419,28 +419,28 @@ function App() {
                   <img
                     id="Img10"
                     src={Img10}
-                    alt="Arte para bar Heineken - Clebson Designer Gráfico de alta performance"
+                    alt="Design de cartão de visita"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-heineken' target='blank' className="open-hint" id="Img10">Abrir página</a>
+                  <a href='https://clebsondesigner.com.br/designer-grafico-para-grafica' target='blank' className="open-hint" id="Img10">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img11" onClick={(e) => OpenModal(e)}>
                   <img
                     id="Img11"
                     src={Img11}
-                    alt="Social media para bares Brahma e identidade visual"
+                    alt="Design encarte para supermercado"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/designer-grafico-para-bar' target='blank' className="open-hint" id="Img11">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DcjfsG9lFTG/' target='blank' className="open-hint" id="Img11">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img12" onClick={(e) => OpenModal(e)}>
                   <img
                     id="Img12"
                     src={Img12}
-                    alt="Design de post para bar Skol e panfletos digitais"
+                    alt="Design capa para pasta com orelhas"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-cerveja-skol' target='blank' className="open-hint" id="Img12">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DcmCk5flMhk/' target='blank' className="open-hint" id="Img12">Abrir página</a>
                 </div>
               </div>
             </div>
