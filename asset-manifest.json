@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb4f021d.css",
-    "main.js": "/static/js/main.91cb7959.js",
+    "main.css": "/static/css/main.f679c970.css",
+    "main.js": "/static/js/main.3e5fd7bd.js",
     "static/js/787.0bb58e73.chunk.js": "/static/js/787.0bb58e73.chunk.js",
-    "static/media/img9.png": "/static/media/img9.baec4505705d5632cd95.png",
-    "static/media/img2.png": "/static/media/img2.03bb1211447e84d58abb.png",
-    "static/media/img5.jpg": "/static/media/img5.bdd574bf31e25c1adb8b.jpg",
+    "static/media/img6.png": "/static/media/img6.baec4505705d5632cd95.png",
     "static/media/img7.png": "/static/media/img7.ab8bfcf2bd8f815ab0b5.png",
-    "static/media/img1.png": "/static/media/img1.4d03a8ef51c7bfb4de02.png",
+    "static/media/img5.png": "/static/media/img5.7baae8e4250de1f7005f.png",
+    "static/media/img9.png": "/static/media/img9.7cdd683fdc56a72dcbc2.png",
     "static/media/img8.png": "/static/media/img8.0fb317889aae5348c600.png",
-    "static/media/img3.png": "/static/media/img3.e76be94a041d78f680f5.png",
-    "static/media/img6.png": "/static/media/img6.b822b8c3cd24fe2f6391.png",
-    "static/media/img4.png": "/static/media/img4.4f32f5f5dd1eadb294aa.png",
-    "static/media/img11.png": "/static/media/img11.2ef85ce602cd934c9df7.png",
+    "static/media/img4.png": "/static/media/img4.23d2642d105e3d8abf6f.png",
+    "static/media/img3.png": "/static/media/img3.787e7d07f9e9e7a17ab1.png",
+    "static/media/img1.png": "/static/media/img1.30264de23d7191ef9aef.png",
+    "static/media/img11.png": "/static/media/img11.30264de23d7191ef9aef.png",
+    "static/media/img2.png": "/static/media/img2.89b53e743a8f053b341f.png",
     "static/media/img10.png": "/static/media/img10.a00f5103c6a4afefa5c5.png",
     "static/media/img12.png": "/static/media/img12.8b189e349262d8ef0bd8.png",
     "static/media/Burgundia.otf": "/static/media/Burgundia.b1589d9be193eae91969.otf",
@@ -24,12 +24,12 @@
     "static/media/service1.png": "/static/media/service1.e775632aa43ef6844bd7.png",
     "static/media/WhatsApp.svg.png": "/static/media/WhatsApp.svg.a7b4cf01f0ebdd6ed0ce.png",
     "index.html": "/index.html",
-    "main.cb4f021d.css.map": "/static/css/main.cb4f021d.css.map",
-    "main.91cb7959.js.map": "/static/js/main.91cb7959.js.map",
+    "main.f679c970.css.map": "/static/css/main.f679c970.css.map",
+    "main.3e5fd7bd.js.map": "/static/js/main.3e5fd7bd.js.map",
     "787.0bb58e73.chunk.js.map": "/static/js/787.0bb58e73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4f021d.css",
-    "static/js/main.91cb7959.js"
+    "static/css/main.f679c970.css",
+    "static/js/main.3e5fd7bd.js"
   ]
 }
