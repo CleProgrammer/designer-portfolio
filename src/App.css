@@ -283,8 +283,12 @@ a {
   /*background-color: rgb(112, 30, 0);*/
 }
 
-.App main .second-section .portfolio .desc-arts .title.pizza {
-  font-size: 5.6rem;
+.App main .second-section .portfolio .desc-arts .title.acai {
+  font-size: 3.3rem;
+}
+
+.App main .second-section .portfolio .desc-arts .title.esporte {
+  font-size: 4.2rem;
 }
 
 .App main .second-section .portfolio .desc-arts .title.lanche {
@@ -726,8 +730,12 @@ a {
     font-size: 9.4rem;
   }
 
-  .App main .second-section .portfolio .desc-arts .title.pizza {
-    font-size: 8rem;
+  .App main .second-section .portfolio .desc-arts .title.acai {
+    font-size: 4.5rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.esporte {
+    font-size: 6rem;
   }
 
   .App main .second-section .portfolio .desc-arts .title.lanche {
@@ -1359,6 +1367,10 @@ a {
     font-size: 130px;
   }
 
+  .App main .second-section .portfolio .desc-arts .title.acai {
+    font-size: 3.8rem;
+  }
+
   .App main .second-section .portfolio .desc-arts .title.pizza {
     font-size: 105px;
   }
@@ -1445,8 +1457,12 @@ a {
     font-size: 200px;
   }
 
-  .App main .second-section .portfolio .desc-arts .title.pizza {
-    font-size: 180px;
+  .App main .second-section .portfolio .desc-arts .title.acai {
+    font-size: 6rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.esporte {
+    font-size: 120px;
   }
 
   .App main .second-section .portfolio .desc-arts .title.lanche {
@@ -1530,8 +1546,12 @@ a {
     font-size: 300px;
   }
 
-  .App main .second-section .portfolio .desc-arts .title.pizza {
-    font-size: 250px;
+  .App main .second-section .portfolio .desc-arts .title.acai {
+    font-size: 9rem;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.esporte {
+    font-size: 180px;
   }
 
   .App main .second-section .portfolio .desc-arts .title.lanche {

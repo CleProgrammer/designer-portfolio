@@ -13,7 +13,7 @@ import Img1 from './images/secondsection/img1.png'
 import Img2 from './images/secondsection/img2.png'
 import Img3 from './images/secondsection/img3.png'
 import Img4 from './images/secondsection/img4.png'
-import Img5 from './images/secondsection/img5.jpg'
+import Img5 from './images/secondsection/img5.png'
 import Img6 from './images/secondsection/img6.png'
 import Img7 from './images/secondsection/img7.png'
 import Img8 from './images/secondsection/img8.png'
@@ -265,7 +265,7 @@ function App() {
 
         <section className='first-section'>
           <div className='first-section-main' data-aos="fade-up" data-aos-duration="1000">
-            <h1 className='introduce-me'>Contratar Designer Gráfico Freelancer para Instagram, Pizzarias, Açaíterias, Artes Esportivas, Restaurante, Gráficas e Eventos</h1>
+            <h1 className='introduce-me'>Contratar Designer Gráfico Freelancer para Instagram, Gráficas, Encartes para Comércio, Eventos e Artes Esportivas </h1>
           </div>
         </section>
 
@@ -273,13 +273,12 @@ function App() {
           <div className='seo-text-main' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
 
             <h2>
-              Designer gráfico freelancer para redes sociais, empresas e artes gráficas
+              Designer gráfico freelancer para redes sociais, comércio e artes gráficas
             </h2>
 
             <p>
               Sou designer gráfico freelancer especializado na criação de artes para Instagram,
-              flyers promocionais, posts para redes sociais, design para pizzarias,
-              açaíterias, bares, restaurantes, eventos e diversos segmentos comerciais.
+              flyers promocionais, posts para redes sociais e eventos.
             </p>
 
             <p>
@@ -291,12 +290,11 @@ function App() {
         </section>
 
 
-
         <section className='second-section' id='portfolio'>
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
-              <h2 className='title'>açaí</h2>
-              <p className='art-desc'>Arte criada para açaíteria por um designer para instagram profissional, trazendo clima tropical e comunicação visual que desperta o apetite no feed. Desenvolvidas de forma personalizada para destacar a sua marca, fechar pacotes de artes e gerar engajamento nas redes sociais do segmento de açaí.</p>
+              <h2 className='title acai'>artes<br/>comércio</h2>
+              <p className='art-desc'>Arte criada por Clebson designer gráfico, como encartes, ofertas e materiais de divulgação. Desenvolvidas de forma personalizada para destacar produtos, preços e promoções, ajudando o comércio a divulgar seus produtos com uma comunicação visual clara e atrativa.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -305,74 +303,34 @@ function App() {
                   <img
                     id="Img1"
                     src={Img1}
-                    alt="Arte de açaí para Instagram criada por Clebson Designer Gráfico profissional freelancer"
                     loading="eager"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-açaí' target='blank' className="open-hint" id="Img1">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DcjfsG9lFTG/' target='blank' className="open-hint" id="Img1">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img2" onClick={(e) => OpenModal(e)}>
                   <img
                     id="Img2"
                     src={Img2}
-                    alt="Social media para açaíteria criada por Clebson Designer freelancer focado em criativos"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/designer-para-açaíteria' target='blank' className="open-hint" id="Img2">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DdWp54llJ68/' target='blank' className="open-hint" id="Img2">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img3" onClick={(e) => OpenModal(e)}>
                   <img
                     id="Img3"
                     src={Img3}
-                    alt="Design de post para açaí focado em engajamento e identidade visual"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/arte-para-açaí' target='blank' className="open-hint" id="Img3">Abrir página</a>
+                  <a href='https://www.instagram.com/p/Dcg5LJjlAhk/' target='blank' className="open-hint" id="Img3">Abrir página</a>
                 </div>
               </div>
             </div>
           </div>
-          <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-            <article className='desc-arts'>
-              <h2 className='title pizza'>pizza
-              </h2>
-              <p className='art-desc'>Como designer gráfico freelancer, crio arte para pizzaria profissional com total foco visual na sua marca. Se você quer contratar designer gráfico experiente em delivery, chame agora para criar sua arte para instagram ou flyer de alta qualidade.</p>
-            </article>
-            <div className='arts-examples'>
-              <div className='arts-examples-main'>
-                <div className="portfolio-item" id="Img4" onClick={(e) => OpenModal(e)}>
-                  <img
-                    id="Img4"
-                    src={Img4}
-                    alt="Arte de pizza para Instagram - Portfólio de Design por Clebson Designer Freelancer"
-                    loading="lazy"
-                  />
-                  <a href='https://clebsondesigner.com.br/designer-grafico-para-pizzaria' target='blank' className="open-hint" id="Img4">Abrir página</a>
-                </div>
-                <div className="portfolio-item" id="Img5" onClick={(e) => OpenModal(e)}>
-                  <img
-                    id="Img5"
-                    src={Img5}
-                    alt="Design de social media para pizzarias profissionais e hamburguerias"
-                    loading="lazy"
-                  />
-                  <a href='https://clebsondesigner.com.br/flyer-para-pizzaria' target='blank' className="open-hint" id="Img5">Abrir página</a>
-                </div>
-                <div className="portfolio-item" id="Img6" onClick={(e) => OpenModal(e)}>
-                  <img
-                    id="Img6"
-                    src={Img6}
-                    alt="Arte criativa de pizza para redes sociais e criativo de vendas"
-                    loading="lazy"
-                  />
-                  <a href='https://clebsondesigner.com.br/designer-para-pizzaria' target='blank' className="open-hint" id="Img6">Abrir página</a>
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
               <h2 className='title lanche'>evento</h2>
-              <p className='art-desc'>Arte para evento, elaboradas por um designer gráfico freelancer com foco em cores atrativas para chamar atenção do público. Artes para redes sociais e flyers esportivos pensados para destacar, divulgar e gerar engajamento no nicho de festas, shows, aniversários e eventos para estabelecimentos.</p>
+              <p className='art-desc'>Arte para evento, elaboradas com foco em cores atrativas para chamar atenção do público. Artes para redes sociais e flyers esportivos pensados para destacar, divulgar e gerar engajamento no nicho de festas, shows, aniversários e eventos para estabelecimentos.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -390,23 +348,60 @@ function App() {
                   <img
                     id="Img8"
                     src={Img8}
-                    alt="Designer Gráfico para Eventos - Ana Castela"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-para-show' target='blank' className="open-hint" id="Img8">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DdHBKoJDotL/' target='blank' className="open-hint" id="Img8">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img9" onClick={(e) => OpenModal(e)}>
                   <img
                     id="Img9"
                     src={Img9}
-                    alt="Flyer de evento jogo do Flamengo"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/designer-grafico-esportivo' target='blank' className="open-hint" id="Img9">Abrir página</a>
+                  <a href='https://clebsondesigner.com.br/flyer-para-show' target='blank' className="open-hint" id="Img9">Abrir página</a>
                 </div>
               </div>
             </div>
           </div>
+
+
+          <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <article className='desc-arts'>
+              <h2 className='title esporte'>esporte
+              </h2>
+              <p className='art-desc'>Crio artes esportivas profissionais para diferentes modalidades e eventos, com foco em um visual atrativo e de qualidade. Se você quer contratar um designer gráfico para criar artes para Instagram ou materiais de divulgação esportiva, entre em contato para solicitar seu orçamento.</p>
+            </article>
+            <div className='arts-examples'>
+              <div className='arts-examples-main'>
+                <div className="portfolio-item" id="Img4" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img4"
+                    src={Img4}
+                    loading="lazy"
+                  />
+                  <a href='https://clebsondesigner.com.br/designer-grafico-esportivo' target='blank' className="open-hint" id="Img4">Abrir página</a>
+                </div>
+                <div className="portfolio-item" id="Img5" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img5"
+                    src={Img5}
+                    loading="lazy"
+                  />
+                  <a href='https://clebsondesigner.com.br/flyer-neymar' target='blank' className="open-hint" id="Img5">Abrir página</a>
+                </div>
+                <div className="portfolio-item" id="Img6" onClick={(e) => OpenModal(e)}>
+                  <img
+                    id="Img6"
+                    src={Img6}
+                    loading="lazy"
+                  />
+                  <a href='https://clebsondesigner.com.br/designer-grafico-esportivo' target='blank' className="open-hint" id="Img6">Abrir página</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
               <h2 className='title grafica'>gráfica</h2>
@@ -437,7 +432,6 @@ function App() {
                   <img
                     id="Img12"
                     src={Img12}
-                    alt="Design capa para pasta com orelhas"
                     loading="lazy"
                   />
                   <a href='https://www.instagram.com/p/DcmCk5flMhk/' target='blank' className="open-hint" id="Img12">Abrir página</a>
@@ -504,13 +498,6 @@ function App() {
                 <h3>Você atende clientes de todo o Brasil?</h3>
                 <p>
                     Sim. Todo o atendimento é realizado de forma online, permitindo desenvolver projetos para clientes de qualquer estado do Brasil.
-                </p>
-            </div>
-
-            <div className="faq-item">
-                <h3>Por que contratar um designer gráfico profissional?</h3>
-                <p>
-                    Um designer gráfico profissional desenvolve materiais personalizados que fortalecem a identidade visual da empresa, aumentam a credibilidade da marca e ajudam a transmitir uma comunicação mais eficiente para clientes e seguidores.
                 </p>
             </div>
           </div>
