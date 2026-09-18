@@ -162,7 +162,7 @@ function App() {
     <HelmetProvider>
     <div className="App">
       <Helmet>
-        <title>Contratar Designer Gráfico Freelancer | Portfólio de Artes para Instagram, Pizzarias e Redes Sociais</title>
+        <title>Contratar Designer Gráfico | Artes para Instagram, Encartes, Gráficas, Esporte e Eventos</title>
         <meta name="description" content="Precisa contratar um designer gráfico freelancer? Portfólio profissional especializado em artes para Instagram, flyers para pizzarias, lanchonetes, igrejas, hamburguerias e eventos. Solicite um orçamento!" />
         <meta name="keywords" content="contratar designer grafico, designer gráfico freelancer, designer para instagram, designer para pizzaria, designer para restaurante, flyer para evento, artes para redes sociais, social media designer, designer esportivo" />
         <link rel="canonical" href="https://clebsondesigner.com.br" />
@@ -342,7 +342,7 @@ function App() {
                     alt="Arte de evento - Clebson Designer Gráfico Social Media"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-para-evento' target='blank' className="open-hint" id="Img7">Abrir página</a>
+                  <a href='https://www.instagram.com/p/Db6PEE5FE-5/' target='blank' className="open-hint" id="Img7">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img8" onClick={(e) => OpenModal(e)}>
                   <img
@@ -358,7 +358,7 @@ function App() {
                     src={Img9}
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-para-show' target='blank' className="open-hint" id="Img9">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DbyVsVZlJF6/' target='blank' className="open-hint" id="Img9">Abrir página</a>
                 </div>
               </div>
             </div>
@@ -379,7 +379,7 @@ function App() {
                     src={Img4}
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/designer-grafico-esportivo' target='blank' className="open-hint" id="Img4">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DW47XEZiOSQ/' target='blank' className="open-hint" id="Img4">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img5" onClick={(e) => OpenModal(e)}>
                   <img
@@ -387,7 +387,7 @@ function App() {
                     src={Img5}
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/flyer-neymar' target='blank' className="open-hint" id="Img5">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DMiYJEpu8QL/' target='blank' className="open-hint" id="Img5">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img6" onClick={(e) => OpenModal(e)}>
                   <img
@@ -395,7 +395,7 @@ function App() {
                     src={Img6}
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/designer-grafico-esportivo' target='blank' className="open-hint" id="Img6">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DdE0EEuFCzN/' target='blank' className="open-hint" id="Img6">Abrir página</a>
                 </div>
               </div>
             </div>
@@ -417,7 +417,7 @@ function App() {
                     alt="Design de cartão de visita"
                     loading="lazy"
                   />
-                  <a href='https://clebsondesigner.com.br/designer-grafico-para-grafica' target='blank' className="open-hint" id="Img10">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DcmYpMMFLHb/' target='blank' className="open-hint" id="Img10">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img11" onClick={(e) => OpenModal(e)}>
                   <img
