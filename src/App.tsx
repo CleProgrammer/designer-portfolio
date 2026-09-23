@@ -269,7 +269,7 @@ function App() {
           </div>
         </section>
 
-        <section className='seo-text'>
+        {/*<section className='seo-text'>
           <div className='seo-text-main' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
 
             <h2>
@@ -287,7 +287,7 @@ function App() {
               visual e fortalecimento da marca.
             </p>
           </div>
-        </section>
+        </section>*/}
 
 
         <section className='second-section' id='portfolio'>
@@ -305,7 +305,7 @@ function App() {
                     src={Img1}
                     loading="eager"
                   />
-                  <a href='https://www.instagram.com/p/DcjfsG9lFTG/' target='blank' className="open-hint" id="Img1">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DdmgwzjFDyp/' target='blank' className="open-hint" id="Img1">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img2" onClick={(e) => OpenModal(e)}>
                   <img
@@ -313,7 +313,7 @@ function App() {
                     src={Img2}
                     loading="lazy"
                   />
-                  <a href='https://www.instagram.com/p/DdWp54llJ68/' target='blank' className="open-hint" id="Img2">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DcjfsG9lFTG/' target='blank' className="open-hint" id="Img2">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img3" onClick={(e) => OpenModal(e)}>
                   <img
@@ -321,7 +321,7 @@ function App() {
                     src={Img3}
                     loading="lazy"
                   />
-                  <a href='https://www.instagram.com/p/Dcg5LJjlAhk/' target='blank' className="open-hint" id="Img3">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DdWp54llJ68/' target='blank' className="open-hint" id="Img3">Abrir página</a>
                 </div>
               </div>
             </div>
@@ -426,7 +426,7 @@ function App() {
                     alt="Design encarte para supermercado"
                     loading="lazy"
                   />
-                  <a href='https://www.instagram.com/p/DcjfsG9lFTG/' target='blank' className="open-hint" id="Img11">Abrir página</a>
+                  <a href='https://www.instagram.com/p/DdmgwzjFDyp/' target='blank' className="open-hint" id="Img11">Abrir página</a>
                 </div>
                 <div className="portfolio-item" id="Img12" onClick={(e) => OpenModal(e)}>
                   <img
