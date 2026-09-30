@@ -284,7 +284,9 @@ a {
 }
 
 .App main .second-section .portfolio .desc-arts .title.acai {
-  font-size: 3.3rem;
+  font-size: 4rem;
+  margin-bottom: -2svw;
+
 }
 
 .App main .second-section .portfolio .desc-arts .title.esporte {
@@ -731,7 +733,7 @@ a {
   }
 
   .App main .second-section .portfolio .desc-arts .title.acai {
-    font-size: 4.5rem;
+    font-size: 5.7rem;
   }
 
   .App main .second-section .portfolio .desc-arts .title.esporte {
@@ -855,6 +857,10 @@ a {
 
   .App main .first-section {
     height: 87vh;
+  }
+
+  .App main .second-section .portfolio .desc-arts .title.acai {
+    font-size: 3.7rem;
   }
 
   .App main .second-section .portfolio .desc-arts .title.lanche {
@@ -1126,6 +1132,10 @@ a {
     font-size: 5.5rem;
   }
 
+  .App main .second-section .portfolio .desc-arts .title.acai {
+    font-size: 3.1rem;
+  }
+
   .App main .second-section .portfolio .desc-arts .title.pizza {
     font-size: 4.8rem;
   }
@@ -1368,7 +1378,7 @@ a {
   }
 
   .App main .second-section .portfolio .desc-arts .title.acai {
-    font-size: 3.8rem;
+    font-size: 4.5rem;
   }
 
   .App main .second-section .portfolio .desc-arts .title.pizza {
@@ -1458,7 +1468,7 @@ a {
   }
 
   .App main .second-section .portfolio .desc-arts .title.acai {
-    font-size: 6rem;
+    font-size: 7.7rem;
   }
 
   .App main .second-section .portfolio .desc-arts .title.esporte {
@@ -1547,7 +1557,7 @@ a {
   }
 
   .App main .second-section .portfolio .desc-arts .title.acai {
-    font-size: 9rem;
+    font-size: 11rem;
   }
 
   .App main .second-section .portfolio .desc-arts .title.esporte {

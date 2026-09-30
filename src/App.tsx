@@ -293,8 +293,8 @@ function App() {
         <section className='second-section' id='portfolio'>
           <div className='portfolio' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
             <article className='desc-arts'>
-              <h2 className='title acai'>artes<br/>comércio</h2>
-              <p className='art-desc'>Arte criada por Clebson designer gráfico, como encartes, ofertas e materiais de divulgação. Desenvolvidas de forma personalizada para destacar produtos, preços e promoções, ajudando o comércio a divulgar seus produtos com uma comunicação visual clara e atrativa.</p>
+              <h2 className='title acai'>encarte</h2>
+              <p className='art-desc'>Desenvolvo encartes, ofertas e materiais de divulgação. Criados de forma personalizada para destacar produtos, preços e promoções, ajudando o comércio a divulgar seus produtos com uma comunicação visual clara e atrativa.</p>
             </article>
             <div className='arts-examples'>
               <div className='arts-examples-main'>
@@ -321,7 +321,7 @@ function App() {
                     src={Img3}
                     loading="lazy"
                   />
-                  <a href='https://www.instagram.com/p/DdWp54llJ68/' target='blank' className="open-hint" id="Img3">Abrir página</a>
+                  <a href='https://www.instagram.com/p/Dd15NUZFNzD/' target='blank' className="open-hint" id="Img3">Abrir página</a>
                 </div>
               </div>
             </div>
