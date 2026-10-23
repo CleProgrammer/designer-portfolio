@@ -162,9 +162,9 @@ function App() {
     <HelmetProvider>
     <div className="App">
       <Helmet>
-        <title>Contratar Designer Gráfico | Artes para Instagram, Encartes, Gráficas, Esporte e Eventos</title>
-        <meta name="description" content="Precisa contratar um designer gráfico freelancer? Portfólio profissional especializado em artes para Instagram, flyers para pizzarias, lanchonetes, igrejas, hamburguerias e eventos. Solicite um orçamento!" />
-        <meta name="keywords" content="contratar designer grafico, designer gráfico freelancer, designer para instagram, designer para pizzaria, designer para restaurante, flyer para evento, artes para redes sociais, social media designer, designer esportivo" />
+        <title>Contratar Designer Gráfico | Artes para Instagram, Encartes, Gráficas</title>
+        <meta name="description" content="Precisa contratar um designer gráfico freelancer? Portfólio profissional especializado em encartes e artes para Instagram. Solicite um orçamento!" />
+        <meta name="keywords" content="contratar designer grafico, designer gráfico freelancer, designer para instagram, encartes, artes para redes sociais, social media designer" />
         <link rel="canonical" href="https://clebsondesigner.com.br" />
 
 
